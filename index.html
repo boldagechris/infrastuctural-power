@@ -129,7 +129,7 @@ input[type=file]{display:none}
     <summary>Hvordan figurerne laves</summary>
     <ul>
       <li><b>Figur 1:</b> filterarket. Unikke AI-projekter; rækker uden Public/private eller Område udelades. Et projekt er <i>Private</i> hvis mindst én række er Private, ellers <i>Public</i>, ellers <i>Unknown</i>. Sorteret efter antal privat, offentlig, ukendt.</li>
-      <li><b>Figur 2:</b> filterarket, rækker med Public/private = Private. Fælles leverancer (Appinux/Copenhagen Data; Alexandra Instituttet/KMD/Solita) deles op. Kantvægt = antal unikke AI-systemer. Alle leverandører får label; myndigheder med ≥ 8 bånd og alle noder i separate små netværk får label.</li>
+      <li><b>Figur 2:</b> filterarket, rækker med Public/private = Private. Celler med flere leverandører adskilt af komma eller semikolon deles op, så hver leverandør bliver sin egen node ("Groove X, Inc." forbliver ét firma). Kantvægt = antal unikke AI-systemer. Alle leverandører får label; myndigheder med ≥ 8 bånd og alle noder i separate små netværk får label.</li>
       <li><b>Figur 3:</b> Vendor-arket (CSP, CSM), afgrænset til figur 2's private leverandører. Tekst i CSP-cellen, der ikke er et udbydernavn (fx chatbeskeder), springes over og vises som advarsel.</li>
       <li><b>Figur 4:</b> Bridging-arket. Én deployment = én myndighed × ét AI-system, delt ligeligt over dens egne cloud-links (række-niveau). Systemer uden myndighed eller cloud udelades.</li>
       <li>Netværkslayouts bruger samme algoritmer som Python-versionen (Kamada-Kawai-start, Fruchterman-Reingold, overlap-skub), så strukturen er den samme, men den præcise placering af noder kan afvige lidt fra de tidligere PNG'er.</li>
@@ -242,7 +242,10 @@ function computeFig1(rows){
 /* =====================================================================
    DATA: Figure 2  (figure2_en.py)
    ===================================================================== */
-const JOINT = new Set(['Appinux, Copenhagen Data','Alexandra Instituttet, KMD, Solita']);
+// A cell naming several vendors ('Thales, EU-LISA') is several vendors. Split on commas/semicolons,
+// but keep legal suffixes with the company ('Groove X, Inc.' stays one vendor).
+const LEGAL_RE = /^(inc\.?|ltd\.?|limited|a\/s|aps|ab|as|gmbh|llc|s\.?a\.?|oy|corp\.?|co\.?|pte\.?(\s*ltd\.?)?)$/i;
+function splitVendors(v){ const out=[]; for (let p of String(v).split(/[;,]/)){ p=p.trim(); if(!p) continue; if(out.length && LEGAL_RE.test(p)) out[out.length-1]+=', '+p; else out.push(p); } return out; }
 function authType2(n){
   if (/Kommune$/.test(n)) return 'Municipality';
   if (/Region|hospital|Hospital|Sygehus|Psykiatri|OUH|CAMES|læger|Medcom|sundhed\.dk/i.test(n)) return 'Region / hospital';
@@ -254,12 +257,12 @@ function computeFig2(rows){
         kA=colKey(rows,'Offentlig myndighed'), kD=colKey(rows,'Deleted',true);
   const VFIX={'NTT DATA Business Solutions':'NTT Data Business Solutions','*Potentielt Promte':'Promte (potential)'};
   const AFIX={'Politi':'Politiet','Hjørring':'Hjørring Kommune'};
-  const recs=[];
+  const recs=[], splitCells=new Set();
   for (const r of rows){
     if (kD && isNum1(r[kD])) continue;
     const pp=str(r[kPP]), v=str(r[kV]), a=str(r[kA]), ai=str(r[kAI]);
     if (pp!=='Private' || !v || !a) continue;
-    const vs = JOINT.has(v) ? v.split(',').map(x=>x.trim()) : [v];
+    const vs = splitVendors(v); if (vs.length>1) splitCells.add(v);
     for (let x of vs){ x=x.trim(); x=VFIX[x]||x; recs.push({auth:AFIX[a]||a, vendor:x, ai}); }
   }
   const em=new Map();
@@ -271,7 +274,7 @@ function computeFig2(rows){
   for (const e of edges) if(!nodes.has(e.vendor)) nodes.set(e.vendor,{id:e.vendor,kind:'vendor',deg:0});
   for (const e of edges){ nodes.get(e.auth).deg++; nodes.get(e.vendor).deg++; }
   const nSys = new Set(recs.map(r=>r.ai).filter(Boolean)).size;
-  return {nodes:[...nodes.values()], edges, nSys};
+  return {nodes:[...nodes.values()], edges, nSys, splitCells:[...splitCells].sort(cmp)};
 }
 
 /* =====================================================================
@@ -288,15 +291,17 @@ function computeFig3(filterRows, vendorRows){
   for (const r of filterRows){
     if (str(r[kPP])!=='Private') continue;
     const v = str(r[kV]); if (!v) continue;
-    for (let x of (JOINT.has(v)? v.split(','):[v])){ x=x.trim(); x = x==='NTT DATA Business Solutions'?'NTT Data Business Solutions':x; fig2.set(norm3(x),x); }
+    for (let x of splitVendors(v)){ x=x.trim(); x = x==='NTT DATA Business Solutions'?'NTT Data Business Solutions':x; fig2.set(norm3(x),x); }
   }
   const ALIAS = new Map([[norm3('Teacherspace ApS'),'EdSpace']]);
   const kVV=colKey(vendorRows,'Vendor'), kC=colKey(vendorRows,'CSP'), kM=colKey(vendorRows,'CSM',true);
-  const CMAP={'OCI':'Oracle Cloud','raffle.ai ApS':'raffle.ai','team.blue Denmark A/S':'team.blue','Anthropic Ireland, Limited':'Anthropic','Cleura AB':'Cleura','Cantab Research Ltd.':'Speechmatics','Microzoft Azure':'Microsoft Azure','Google':'Google Cloud','UpCloud Ltd.':'UpCloud','team.blue Denmark':'team.blue'};
+  const CMAP={'OCI':'Oracle Cloud','raffle.ai ApS':'raffle.ai','team.blue Denmark A/S':'team.blue','Anthropic Ireland, Limited':'Anthropic','Cleura AB':'Cleura','Cantab Research Ltd.':'Speechmatics','Microzoft Azure':'Microsoft Azure','Google':'Google Cloud','UpCloud Ltd.':'UpCloud','team.blue Denmark':'team.blue',
+    'Microsoft':'Microsoft Azure','Amazon':'Amazon Web Services','Google Platform':'Google Cloud','Syv.ai':'syv.ai'};
   const links=[], seen=new Set(), skipped=[];
   for (const r of vendorRows){
     if (r[kC]===null || r[kC]===undefined || (typeof r[kC]==='string' && r[kC]==='')) continue;
-    const key = norm3(r[kVV]===null?'nan':r[kVV]);
+    for (const vv of splitVendors(r[kVV]===null?'nan':r[kVV])){
+    const key = norm3(vv);
     const name = fig2.get(key) || ALIAS.get(key);
     if (!name) continue;
     let layer = kM ? str(r[kM]) : null; layer = layer || 'Not specified';
@@ -305,9 +310,11 @@ function computeFig3(filterRows, vendorRows){
     for (let c of raw.split(/,\s*/)){
       c = c.replace(/\s*\(.*?\)\s*/g,'').trim();
       c = CMAP[c] || c;
+      if (c && norm3(c)===norm3(name)) c='Vendor-hosted (no external CSP)';   // vendor runs it on its own infrastructure
       if (c && c.split(/\s+/).length<=5 && !/[!?]|:\)/.test(c)){
         const k=name+'\u0000'+c+'\u0000'+layer; if(!seen.has(k)){ seen.add(k); LT.idx(layer); links.push({vendor:name,csp:c,layer}); }
       } else if (c) skipped.push({vendor:name, text:c.slice(0,60)});
+    }
     }
   }
   const nCsp=new Map(), cspV=new Map(), cspLinks=new Map(), vLinks=new Map();
@@ -359,11 +366,11 @@ function computeFig4(rows){
   for (const r of rows){
     const s = r[kS]; if (s===null||s===undefined||s==='') continue;
     const system = String(s);   // pandas keeps the raw value
-    const vendor = cleanVendor4(r[kV]);
+    const vendors = (r[kV]===null||r[kV]===undefined) ? ['nan'] : splitVendors(r[kV]).map(cleanVendor4);
     const csp = cleanCsp4(r[kC]);
     let layer = kL ? r[kL] : null; layer = (layer===null||layer===undefined)?'Not specified':String(layer).trim();
     const auths = (r[kA]===null||r[kA]===undefined?'':String(r[kA])).split(/,\s*/).map(x=>x.trim()).filter(Boolean).map(x=>AFIX4[x]||x);
-    B.push({system,vendor,csp,layer,auths});
+    for (const vendor of (vendors.length?vendors:['nan'])) B.push({system,vendor,csp,layer,auths});
   }
   const sysAuth=new Map(), sysCsp=new Set();
   for (const b of B){ if(!sysAuth.has(b.system)) sysAuth.set(b.system,new Set()); b.auths.forEach(a=>sysAuth.get(b.system).add(a)); if (b.csp) sysCsp.add(b.system); }
@@ -966,7 +973,7 @@ async function runAll(){
   const fr=sheetRows(wb,state.filterSheet);
   const vs=findSheet(wb,['Vendor']), bs=findSheet(wb,['Bridging']);
   try{ R[1]=computeFig1(fr); }catch(e){ warns[1].push(e.message); }
-  try{ R[2]=computeFig2(fr); R[2].lay=layoutFig2(R[2]); }catch(e){ console.error(e); warns[2].push(e.message); }
+  try{ R[2]=computeFig2(fr); R[2].lay=layoutFig2(R[2]); if (R[2].splitCells.length) warns[2].push('Celler med flere leverandører, delt op: '+R[2].splitCells.join(' · ')); }catch(e){ console.error(e); warns[2].push(e.message); }
   if (vs){ try{ R[3]=computeFig3(fr, sheetRows(wb,vs)); R[3].lay=layoutFig3(R[3]);
       R[3].skipped.forEach(k=>warns[3].push(`Ugyldig CSP-tekst sprunget over for ${k.vendor}: “${k.text}”`));
       const odd=R[3].LT.L.filter(l=>!LAYERS0.includes(l)); if(odd.length) warns[3].push('Nye/uventede værdier i CSM (cloud-lag): '+odd.join(', '));
