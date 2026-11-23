@@ -182,7 +182,8 @@ const VCOL = '#e07a5f';
 const LAYERS0 = ['IaaS','PaaS','SaaS','AIaaS','Not specified'];
 const LCOL0 = {'IaaS':'#3a5a8c','PaaS':'#3fa7a0','SaaS':'#e3b23c','AIaaS':'#a05195','Not specified':'#b5b5b5'};
 const EXTRA_COL = ['#8f6b4a','#c2549d','#5f8f3a','#4a6fa5','#a39b2b'];
-const BIG3 = ['Microsoft Azure','Amazon Web Services','Google Cloud'];
+const BIG3 = ['Microsoft','Amazon','Google'];   // providers are shown by company name
+const COMPANY = {'Microsoft Azure':'Microsoft','Amazon Web Services':'Amazon','Google Cloud':'Google','Oracle Cloud':'Oracle'};
 const INHOUSE = 'In-house (the authority itself)';
 const FONT = "'DejaVu Fig','DejaVu Sans',Verdana,sans-serif";
 
@@ -310,7 +311,8 @@ function computeFig3(filterRows, vendorRows){
     for (let c of raw.split(/,\s*/)){
       c = c.replace(/\s*\(.*?\)\s*/g,'').trim();
       c = CMAP[c] || c;
-      if (c && norm3(c)===norm3(name)) c='Vendor-hosted (no external CSP)';   // vendor runs it on its own infrastructure
+      c = COMPANY[c] || c;
+      if (c && norm3(c)===norm3(name) && !BIG3.includes(c)) c='Vendor-hosted (no external CSP)';   // vendor runs it on its own infrastructure
       if (c && c.split(/\s+/).length<=5 && !/[!?]|:\)/.test(c)){
         const k=name+'\u0000'+c+'\u0000'+layer; if(!seen.has(k)){ seen.add(k); LT.idx(layer); links.push({vendor:name,csp:c,layer}); }
       } else if (c) skipped.push({vendor:name, text:c.slice(0,60)});
@@ -350,6 +352,7 @@ function cleanCsp4(c){
   return ({'Hetzner Online GmbH':'Hetzner','OVH Cloud':'OVHCloud','Google':'Google Cloud','Azure AI Foundry':'Microsoft Azure',
     'Raffle.ai':'raffle.ai','UpCloud Ltd.':'UpCloud','Rackhosting ApS':'Rackhosting'})[c] || c;
 }
+const cleanCsp4Co = c => { c=cleanCsp4(c); return c===null? null : (COMPANY[c]||c); };
 const AFIX4 = {'Århus Kommune':'Aarhus Kommune','Oddsherred Kommune':'Odsherred Kommune','Odense Univesitetshospital':'Odense Universitetshospital',
   'Nordfyn Kommune':'Nordfyns Kommune','Høje Taastrup Kommune':'Høje-Taastrup Kommune','Lægemiddelstyrelsen (Danish Medicines Agency)':'Lægemiddelstyrelsen'};
 function authType4(n){
@@ -367,7 +370,7 @@ function computeFig4(rows){
     const s = r[kS]; if (s===null||s===undefined||s==='') continue;
     const system = String(s);   // pandas keeps the raw value
     const vendors = (r[kV]===null||r[kV]===undefined) ? ['nan'] : splitVendors(r[kV]).map(cleanVendor4);
-    const csp = cleanCsp4(r[kC]);
+    const csp = cleanCsp4Co(r[kC]);
     let layer = kL ? r[kL] : null; layer = (layer===null||layer===undefined)?'Not specified':String(layer).trim();
     const auths = (r[kA]===null||r[kA]===undefined?'':String(r[kA])).split(/,\s*/).map(x=>x.trim()).filter(Boolean).map(x=>AFIX4[x]||x);
     for (const vendor of (vendors.length?vendors:['nan'])) B.push({system,vendor,csp,layer,auths});
@@ -702,13 +705,13 @@ function drawFig2(R, Lay){
 function layoutFig3(R){
   const ids=[], kind=new Map(), also=new Set();
   for (const v of R.vendors){ ids.push(v); kind.set(v,'vendor'); }
-  for (const c of R.csps){ if (kind.has(c)) also.add(c); else { ids.push(c); kind.set(c,'csp'); } }
+  for (const c of R.csps){ if (kind.has(c) && BIG3.includes(c)) kind.set(c,'csp'); else if (kind.has(c)) also.add(c); else { ids.push(c); kind.set(c,'csp'); } }
   const adj=new Map(ids.map(i=>[i,[]])), E=new Map();
-  for (const l of R.links){ const k=l.vendor+'\u0000'+l.csp; if(!E.has(k)){ E.set(k,{a:l.vendor,b:l.csp,layers:new Set()}); adj.get(l.vendor).push([l.csp,1]); adj.get(l.csp).push([l.vendor,1]); } E.get(k).layers.add(l.layer); }
+  for (const l of R.links){ if (l.vendor===l.csp) continue; const k=l.vendor+'\u0000'+l.csp; if(!E.has(k)){ E.set(k,{a:l.vendor,b:l.csp,layers:new Set()}); adj.get(l.vendor).push([l.csp,1]); adj.get(l.csp).push([l.vendor,1]); } E.get(k).layers.add(l.layer); }
   const edges=sortBy([...E.values()],e=>[e.a,e.b]).map(e=>({a:e.a,b:e.b,layers:[...e.layers].sort((x,y)=>R.LT.L.indexOf(x)-R.LT.L.indexOf(y))}));
   const deg=new Map(ids.map(i=>[i,adj.get(i).length]));
   const comps=components(ids,adj), main=ids.filter(i=>comps[0].includes(i));
-  const anchor={'Microsoft Azure':[-0.75,0.15],'Amazon Web Services':[0.75,0.15],'Google Cloud':[0,-0.75]};
+  const anchor={'Microsoft':[-0.75,0.15],'Amazon':[0.75,0.15],'Google':[0,-0.75]};
   const fixed=Object.keys(anchor).filter(c=>main.includes(c));
   const given={}; fixed.forEach(c=>given[c]=anchor[c]);
   const P=fruchtermanReingold(main,adj,{pos:given,fixed,k:0.55,iterations:800,seed:4});
