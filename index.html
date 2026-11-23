@@ -204,9 +204,12 @@ function colKey(rows, name, optional){
   if (!k && !optional) throw new Error(`Kolonnen "${name}" blev ikke fundet.`);
   return k;
 }
+const NA_STR=new Set(['','#N/A','#N/A N/A','#NA','-1.#IND','-1.#QNAN','-NaN','-nan','1.#IND','1.#QNAN','<NA>','N/A','NA','NULL','NaN','None','n/a','nan','null']);
 function sheetRows(wb, name){
   const ws = wb.Sheets[name];
   const rows = XLSX.utils.sheet_to_json(ws,{defval:null,raw:true});
+  // treat the same text values as empty as pandas.read_excel does (e.g. a cell containing "None" or "N/A")
+  for (const r of rows) for (const k in r) if (typeof r[k]==='string' && NA_STR.has(r[k])) r[k]=null;
   // make every row carry every header (sheet_to_json drops keys for empty cells when defval omitted; we set defval)
   return rows;
 }
@@ -289,7 +292,7 @@ function computeFig3(filterRows, vendorRows){
   }
   const ALIAS = new Map([[norm3('Teacherspace ApS'),'EdSpace']]);
   const kVV=colKey(vendorRows,'Vendor'), kC=colKey(vendorRows,'CSP'), kM=colKey(vendorRows,'CSM',true);
-  const CMAP={'OCI':'Oracle Cloud','raffle.ai ApS':'raffle.ai','team.blue Denmark A/S':'team.blue','Anthropic Ireland, Limited':'Anthropic','Cleura AB':'Cleura','Cantab Research Ltd.':'Speechmatics'};
+  const CMAP={'OCI':'Oracle Cloud','raffle.ai ApS':'raffle.ai','team.blue Denmark A/S':'team.blue','Anthropic Ireland, Limited':'Anthropic','Cleura AB':'Cleura','Cantab Research Ltd.':'Speechmatics','Microzoft Azure':'Microsoft Azure','Google':'Google Cloud','UpCloud Ltd.':'UpCloud','team.blue Denmark':'team.blue'};
   const links=[], seen=new Set(), skipped=[];
   for (const r of vendorRows){
     if (r[kC]===null || r[kC]===undefined || (typeof r[kC]==='string' && r[kC]==='')) continue;
