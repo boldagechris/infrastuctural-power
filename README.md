@@ -33,6 +33,7 @@ figure in the article, and a small web app that redraws the figures from an upda
 | 2. Public authorities and private developers | `figure2_en.py` | 182 privately developed systems in use or planned |
 | 3. Private developers and cloud providers (network, matrix, Sankey) | `figure3_en.py` | developers in Figure 2 with cloud data in `vendor_cloud.csv` |
 | 4. AI system → developer → authority → cloud (Sankey) | `figure4_364_all_sankey_en.py` | 108 systems with an identified cloud provider or hosting arrangement (295 deployments) |
+| 4b. The stack with its holes: where knowledge of each system stops | `figure4_gaps_en.py` | all 364 AI systems in use or planned |
 | M. Research funnel | `figure_visibility_en.py` | full register |
 | F. Visibility of the infrastructure layer by developer type | `figure_visibility_en.py` | 364 AI systems in use or planned |
 | A, C. Missing information (by variable, by sector) | `figure_missing_en.py` | 364 AI systems in use or planned |

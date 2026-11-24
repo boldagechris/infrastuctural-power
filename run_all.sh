@@ -28,6 +28,8 @@ echo "== Figure 3: developer-cloud network, matrix and Sankey"
 python "$ROOT/code/figure3_en.py"
 echo "== Figure 4: Sankey AI system -> developer -> authority -> cloud"
 python "$ROOT/code/figure4_364_all_sankey_en.py" | head -1
+echo "== Figure 4b: the stack with its holes (all 364 systems)"
+python "$ROOT/code/figure4_gaps_en.py" > /dev/null
 echo "== Figures M and F: research funnel and visibility"
 python "$ROOT/code/figure_visibility_en.py" > /dev/null
 echo "== Figures A and C: missing information"
