@@ -1,0 +1,94 @@
+type,original,harmonised,used_in
+authority: Danish -> English,Aalborg Universitetshospital,Aalborg University Hospital,names_en.py
+authority: Danish -> English,Aarhus Universitetshospital,Aarhus University Hospital,names_en.py
+authority: Danish -> English,Beskæftigelsesministeriet,Ministry of Employment,names_en.py
+authority: Danish -> English,CAMES Rigshospitalet,"CAMES, Copenhagen University Hospital (Rigshospitalet)",names_en.py
+authority: Danish -> English,Digitaliseringsstyrelsen,Danish Agency for Digital Government,names_en.py
+authority: Danish -> English,Familieretshuset,Agency of Family Law,names_en.py
+authority: Danish -> English,Frederiksberg Forsyning,Frederiksberg Utilities,names_en.py
+authority: Danish -> English,Færdselsstyrelsen,Danish Road Traffic Authority,names_en.py
+authority: Danish -> English,Grænsemyndighederne,Danish Border Authorities,names_en.py
+authority: Danish -> English,Københavns Universitet,University of Copenhagen,names_en.py
+authority: Danish -> English,Lægemiddelstyrelsen (Danish Medicines Agency),Danish Medicines Agency,names_en.py
+authority: Danish -> English,Miljøstyrelsen,Danish Environmental Protection Agency,names_en.py
+authority: Danish -> English,Minksekretariatet,Mink Secretariat,names_en.py
+authority: Danish -> English,Naturstyrelsen,Danish Nature Agency,names_en.py
+authority: Danish -> English,Nævnenes Hus,Danish Appeals Boards (Nævnenes Hus),names_en.py
+authority: Danish -> English,OUH Svendborg,"Odense University Hospital, Svendborg",names_en.py
+authority: Danish -> English,Odense Universitetshospital,Odense University Hospital,names_en.py
+authority: Danish -> English,Parkeringsklagenævnet,Parking Appeals Board,names_en.py
+authority: Danish -> English,Patent- og Varemærkestyrelsen,Danish Patent and Trademark Office,names_en.py
+authority: Danish -> English,Plan- og Landdistriktsstyrelsen,Danish Agency for Planning and Rural Districts,names_en.py
+authority: Danish -> English,Politiet,Danish Police,names_en.py
+authority: Danish -> English,Region Hovedstaden,Capital Region of Denmark,names_en.py
+authority: Danish -> English,Region Midtjylland,Central Denmark Region,names_en.py
+authority: Danish -> English,Region Nordjylland,North Denmark Region,names_en.py
+authority: Danish -> English,Region Sjælland,Region Zealand,names_en.py
+authority: Danish -> English,Region Syddanmark,Region of Southern Denmark,names_en.py
+authority: Danish -> English,Regionshospital Nordjylland,North Denmark Regional Hospital,names_en.py
+authority: Danish -> English,Regionshospitalet Horsens,Horsens Regional Hospital,names_en.py
+authority: Danish -> English,Regionshospitalet Randers,Randers Regional Hospital,names_en.py
+authority: Danish -> English,Rigshospitalet,Copenhagen University Hospital (Rigshospitalet),names_en.py
+authority: Danish -> English,Rigshospitalet-Glostrup,"Copenhagen University Hospital, Glostrup",names_en.py
+authority: Danish -> English,Rigsrevisionen,National Audit Office of Denmark,names_en.py
+authority: Danish -> English,Social- og Boligstyrelsen,National Board of Social Services and Housing,names_en.py
+authority: Danish -> English,Styrelsen for Patientklager,Danish Patient Complaints Board,names_en.py
+authority: Danish -> English,Sundhedsstyrelsen,Danish Health Authority,names_en.py
+authority: Danish -> English,Syddansk Universitet,University of Southern Denmark,names_en.py
+authority: Danish -> English,Sydvestjysk Sygehus,Hospital South West Jutland,names_en.py
+authority: Danish -> English,Sygehus Lillebælt,Lillebaelt Hospital,names_en.py
+authority: Danish -> English,Sygehus Sønderjylland,Hospital of Southern Jutland,names_en.py
+authority: Danish -> English,Trafikstyrelsen,Danish Transport Authority,names_en.py
+authority: Danish -> English,Udbetaling Danmark,Payment Denmark (Udbetaling Danmark),names_en.py
+authority: Danish -> English,Udlændinge- og Integrationsministeriet,Ministry of Immigration and Integration,names_en.py
+authority: Danish -> English,Udlændingestyrelsen,Danish Immigration Service,names_en.py
+authority: spelling,Hjørring,Hjørring Kommune,figure2_en.py
+authority: spelling,Høje Taastrup Kommune,Høje-Taastrup Kommune,figure4_364_all_sankey_en.py
+authority: spelling,Mors Kommune,Morsø Kommune,figure2_en.py
+authority: spelling,Nordfyn Kommune,Nordfyns Kommune,figure4_364_all_sankey_en.py
+authority: spelling,Oddsherred Kommune,Odsherred Kommune,figure4_364_all_sankey_en.py
+authority: spelling,Politi,Politiet,figure2_en.py
+authority: spelling,Århus Kommune,Aarhus Kommune,figure4_364_all_sankey_en.py
+cloud provider: product -> company name,Amazon Web Services,Amazon,figure3_en.py
+cloud provider: product -> company name,Google Cloud,Google,figure3_en.py
+cloud provider: product -> company name,Microsoft Azure,Microsoft,figure3_en.py
+cloud provider: product -> company name,Oracle Cloud,Oracle,figure3_en.py
+cloud provider: spelling / company name,Amazon,Amazon Web Services,figure3_en.py
+cloud provider: spelling / company name,Amazon Web Services,Amazon,build_datasets.py
+cloud provider: spelling / company name,"Anthropic Ireland, Limited",Anthropic,figure3_en.py
+cloud provider: spelling / company name,Cantab Research Ltd.,Speechmatics,build_datasets.py
+cloud provider: spelling / company name,Cleura AB,Cleura,build_datasets.py
+cloud provider: spelling / company name,Google,Google Cloud,figure3_en.py
+cloud provider: spelling / company name,Google Cloud,Google,build_datasets.py
+cloud provider: spelling / company name,Google Platform,Google,build_datasets.py
+cloud provider: spelling / company name,Google Platform,Google Cloud,figure3_en.py
+cloud provider: spelling / company name,Interxion Deutschland GmbH,Interxion,build_datasets.py
+cloud provider: spelling / company name,Microsoft,Microsoft Azure,figure3_en.py
+cloud provider: spelling / company name,Microsoft Azure,Microsoft,build_datasets.py
+cloud provider: spelling / company name,Microzoft,Microsoft,figure4_364_all_sankey_en.py
+cloud provider: spelling / company name,Microzoft Azure,Microsoft,build_datasets.py
+cloud provider: spelling / company name,Microzoft Azure,Microsoft Azure,figure3_en.py
+cloud provider: spelling / company name,OCI,Oracle,build_datasets.py
+cloud provider: spelling / company name,OCI,Oracle Cloud,figure3_en.py
+cloud provider: spelling / company name,OVH Cloud,OVHCloud,build_datasets.py
+cloud provider: spelling / company name,Oracle Cloud,Oracle,build_datasets.py
+cloud provider: spelling / company name,Raffle.ai,raffle.ai,build_datasets.py
+cloud provider: spelling / company name,Syv.ai,syv.ai,build_datasets.py
+cloud provider: spelling / company name,UpCloud Ltd.,UpCloud,build_datasets.py
+cloud provider: spelling / company name,raffle.ai ApS,raffle.ai,build_datasets.py
+cloud provider: spelling / company name,team.blue Denmark,team.blue,build_datasets.py
+cloud provider: spelling / company name,team.blue Denmark A/S,team.blue,build_datasets.py
+developer: display name,Alexandra Instituttet,The Alexandra Institute,names_en.py
+developer: display name,EG Danmark,EG Denmark,names_en.py
+developer: display name,SERVICENOW DENMARK,ServiceNow Denmark,names_en.py
+developer: display name,TOPDESK DANMARK,TOPdesk Denmark,names_en.py
+developer: spelling,*Potentielt Promte,Promte (potential),figure2_en.py
+developer: spelling,Deloitte Statsautoriseret Revisionspartnerselskab,Deloitte,build_datasets.py
+developer: spelling,Epic Systems Corporation (US),Epic Systems Corporation,build_datasets.py
+developer: spelling,Indsigt.ai,indsigt.ai,build_datasets.py
+developer: spelling,NTT DATA Business Solutions,NTT Data Business Solutions,build_datasets.py
+developer: spelling,indsigt.ai / Potentielt KOMPAS,indsigt.ai,build_datasets.py
+developer: spelling,syv.ai (open source),syv.ai,build_datasets.py
+municipality name stem -> English,Bornholms,Bornholm,names_en.py
+municipality name stem -> English,Københavns,Copenhagen,names_en.py
+municipality name stem -> English,Nordfyns,Nordfyn,names_en.py

@@ -1,0 +1,171 @@
+AI system,Vendor(s),CSP,Layer,CSP type,No. of authorities
+ADVANCE Chest CT,Contextflow,On-premises,Not specified,No external CSP,1
+AI Databaseret Process Mining,Microsoft,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+AI GDPR bot,Promte,Microsoft,IaaS,Cloud / AI service provider,1
+AI HotSpot,Aarhus Kommune,OpenAI,SaaS,Cloud / AI service provider,1
+AI I BYGGESAGSBEHANDLING,cBrain,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+AI Mammo,Human Bytes,On-premises,Not specified,No external CSP,4
+AI Mammo,Human Bytes,Screenpoint Medical,SaaS,Cloud / AI service provider,4
+AI assistent ’SikkerBot’,Frederiksberg Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+AI assistent ’SikkerBot’,Frederiksberg Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+AI i 1-1-2-opkald til apopleksi-detektering,Corti,Corti,SaaS,Cloud / AI service provider,2
+AI til patientklager,Odense Universitetshospital; Region Syddanmark,On-premises,Not specified,No external CSP,2
+AI til prostatakræft-patologi,Aiforia,Microsoft,IaaS,Cloud / AI service provider,2
+AI til trombofiliudredning,Region Syddanmark,Indsigt.ai,SaaS,Cloud / AI service provider,1
+AI til trombofiliudredning,Region Syddanmark,On-premises,Not specified,No external CSP,1
+AI udeblivelse,Region Hovedstaden,Epic,SaaS,Cloud / AI service provider,1
+AI-Miljørapport (arbejdstitel),syv.ai,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+AI-assistent til KSD,KOMBIT,Microsoft,IaaS,Cloud / AI service provider,15
+AI-assistent til KSD,KOMBIT,Microsoft,SaaS,Cloud / AI service provider,15
+AI-indtegning til strålebehandling (inkl. thorax),Region Midtjylland,On-premises,Not specified,No external CSP,1
+AI-inferens på Gefion,Vejle Kommune,DCAI - Danish Centre for AI Innovation,Not specified,Public-sector infrastructure,1
+AI-portal,Randers Kommune,Hetzner,IaaS,Cloud / AI service provider,1
+AI-portal,Randers Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+AI-screening til indsats om sygedagpenge,Vejle Kommune,Microsoft,PaaS,Cloud / AI service provider,1
+AI-screening til indsats om sygedagpenge,Vejle Kommune,On-premises,Not specified,No external CSP,1
+AI-understøttet sagsbehandling,Knowit,OpenAI,SaaS,Cloud / AI service provider,1
+AI-understøttet vagtplanlægning (SVS),Sydvestjysk Sygehus,On-premises,Not specified,No external CSP,1
+AID_MIND,Odense Universitetshospital; Syddansk Universitet,Regional IT Syddanmark,Not specified,Public-sector infrastructure,2
+AID_NOTE,Center for Digital Psykiatri; Odense Universitetshospital; Sygehus Lillebælt; Sygehus Sønderjylland,Corti,SaaS,Cloud / AI service provider,4
+AID_NOTE,Center for Digital Psykiatri; Odense Universitetshospital; Sygehus Lillebælt; Sygehus Sønderjylland,Microsoft,IaaS,Cloud / AI service provider,4
+AID_NOTE,Center for Digital Psykiatri; Odense Universitetshospital; Sygehus Lillebælt; Sygehus Sønderjylland,Omilon,SaaS,Cloud / AI service provider,4
+AIM-SAFE – AI til medicinhåndtering og kræftbehandling,Odense Universitetshospital; Sygehus Sønderjylland,On-premises,Not specified,No external CSP,2
+ALF – AI til transskribering af psykoterapisamtaler,Region Hovedstaden,On-premises,Not specified,No external CSP,1
+Acadre support AI agent,Fredensborg Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+AffaldsABC – AI-assistent til affaldssortering,Sweco,Rackhosting,IaaS,Cloud / AI service provider,1
+AirCON – AI til kræftbestråling,Sygehus Lillebælt,On-premises,Not specified,No external CSP,1
+ArtPlan – Automatisk delineation af risikoorganer,Human Bytes,On-premises,Not specified,No external CSP,2
+ArtPlan – Automatisk delineation af risikoorganer,Human Bytes,Therapanacea,SaaS,Cloud / AI service provider,2
+Assistent til afgørelser på socialområdet,Furesø Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Assistent til afgørelser på socialområdet,Furesø Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+Automatisk evaluering af luftvejsændringer efter kæbekirurgi,Sydvestjysk Sygehus,On-premises,Not specified,No external CSP,1
+Barnets Lov-assistent,Furesø Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Barnets Lov-assistent,Furesø Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+ByhistoriskGPT,Digital Impact,Amazon,IaaS,Cloud / AI service provider,1
+Byrådsassistent,Furesø Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Byrådsassistent,Furesø Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+Børge,Digitaliseringsstyrelsen,Anthropic,SaaS,Cloud / AI service provider,27
+Børge,Digitaliseringsstyrelsen,Statens IT,IaaS,Public-sector infrastructure,27
+CMri – MR-scanning af hjernesygdomme,Human Bytes,Combinostics,SaaS,Cloud / AI service provider,1
+CMri – MR-scanning af hjernesygdomme,Human Bytes,Microsoft,IaaS,Cloud / AI service provider,1
+COPILOT,Microsoft,Vendor-hosted (no external CSP),Not specified,No external CSP,12
+Candeno,Candeno,Microsoft,SaaS,Cloud / AI service provider,6
+Candeno,Candeno,ScanNet,IaaS,Cloud / AI service provider,6
+Chatbot i VAR,VAR Healthcare DK,Microsoft,IaaS,Cloud / AI service provider,1
+Chatbot i VAR,VAR Healthcare DK,raffle.ai,SaaS,Cloud / AI service provider,1
+Chatbot til Aula Support,Horsens Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Chatbot til Aula Support,Horsens Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+Chatbot til Byrådet,Horsens Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Chatbot til Byrådet,Horsens Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+Chatbot til gymnasiefordeling,Region Hovedstaden,Databricks,PaaS,Cloud / AI service provider,1
+Chatbot til gymnasiefordeling,Region Hovedstaden,On-premises,Not specified,No external CSP,1
+"Coeus – AI til brug for onboarding i Borger, Erhverv, Beskæftigelse og Integration",Gentofte Kommune,Coeus,SaaS,Cloud / AI service provider,1
+DeSeRT 2 – Risikovurdering af akutte patienter,Sygehus Lillebælt,On-premises,Not specified,No external CSP,1
+DeSeRT 2 – Risikovurdering af akutte patienter,Sygehus Lillebælt,SAS Institute,SaaS,Cloud / AI service provider,1
+Den intelligente patientjournal (IPJ),Odense Universitetshospital,Indsigt.ai,SaaS,Cloud / AI service provider,1
+Den intelligente patientjournal (IPJ),Odense Universitetshospital,On-premises,Not specified,No external CSP,1
+Detektion af thorax-abnormiteter,Human Bytes,Harrison.ai,SaaS,Cloud / AI service provider,2
+Detektion af thorax-abnormiteter,Human Bytes,On-premises,Not specified,No external CSP,2
+Diagnose af porfyri,Odense Universitetshospital,On-premises,Not specified,No external CSP,1
+Digital Human Platform,NTT Data Business Solutions,Amazon,IaaS,Cloud / AI service provider,1
+Digital Human Platform,NTT Data Business Solutions,Google,PaaS,Cloud / AI service provider,1
+Digital Human Platform,NTT Data Business Solutions,Microsoft,IaaS,Cloud / AI service provider,1
+Digital Human Platform,NTT Data Business Solutions,Microsoft,PaaS,Cloud / AI service provider,1
+EG Optima og Optima Loop AI agent,Fredensborg Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+EKbot – chatbotten på Esbjerg Kommunes intranet,InDialog.ai,Microsoft,PaaS,Cloud / AI service provider,1
+EKbot – chatbotten på Esbjerg Kommunes intranet,InDialog.ai,team.blue,IaaS,Cloud / AI service provider,1
+Eventassistent til PostNord Danmark Rundt 2026,Promte,Microsoft,IaaS,Cloud / AI service provider,1
+Eventassistent til PostNord Danmark Rundt 2026,Promte,Microsoft,PaaS,Cloud / AI service provider,1
+EyeArt – Screening for øjensygdomme,Human Bytes,Amazon,IaaS,Cloud / AI service provider,1
+EyeArt – Screening for øjensygdomme,Human Bytes,Eyenuk,SaaS,Cloud / AI service provider,1
+FagbiblioteksGPT,Thisted Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+FagbiblioteksGPT,Thisted Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+FleetOptimiser,Droids Agency,Interxion,IaaS,Cloud / AI service provider,1
+FleetOptimiser,Droids Agency,Servicepoint,IaaS,Cloud / AI service provider,13
+Forebyggelse af komplikationer efter tarmkræftkirurgi,Region Sjælland; Sjællands Universitetshospital,Danmarks Tekniske Universitet,Not specified,Public-sector infrastructure,2
+FritidsGPT POC,Fellowmind Denmark,Microsoft,IaaS,Cloud / AI service provider,1
+FritidsGPT POC,Fellowmind Denmark,Microsoft,PaaS,Cloud / AI service provider,1
+Generativ AI Site Search,Cludo,Amazon,IaaS,Cloud / AI service provider,1
+Generativ AI Site Search,Cludo,Amazon,PaaS,Cloud / AI service provider,1
+Generativ AI Site Search,Cludo,OpenAI,SaaS,Cloud / AI service provider,1
+Gillie.AI,Gillie.AI,Amazon,IaaS,Cloud / AI service provider,1
+Gillie.AI,Gillie.AI,Google,SaaS,Cloud / AI service provider,1
+Graffitirenhold,Edora,Amazon,IaaS,Cloud / AI service provider,1
+Høringssvar app,Fellowmind Denmark,Microsoft,IaaS,Cloud / AI service provider,1
+Høringssvar app,Fellowmind Denmark,Microsoft,PaaS,Cloud / AI service provider,1
+Høringssvar app,Fellowmind Denmark,Microsoft,SaaS,Cloud / AI service provider,1
+Høringssvar applikation,Aarhus Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Høringssvar applikation,Aarhus Kommune,Microsoft,PaaS,Cloud / AI service provider,1
+InDialog/ Bertha,InDialog.ai,Microsoft,PaaS,Cloud / AI service provider,1
+Intelligent søgning i E-dok,Fellowmind Denmark,Ankiro,SaaS,Cloud / AI service provider,1
+Intelligent søgning i E-dok,Fellowmind Denmark,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+Intern Opkrævnings Chatbot,GPT-trainer,Amazon,IaaS,Cloud / AI service provider,1
+KAI,Gentofte Kommune,OpenAI,SaaS,Cloud / AI service provider,1
+KAILA,Karnov Group Denmark,Google,IaaS,Cloud / AI service provider,12
+KAILA,Karnov Group Denmark,Google,PaaS,Cloud / AI service provider,12
+KAILA,Karnov Group Denmark,Microsoft,IaaS,Cloud / AI service provider,12
+KAILA,Karnov Group Denmark,Microsoft,PaaS,Cloud / AI service provider,12
+KMD Letbetaling,KMD,Microsoft,IaaS,Cloud / AI service provider,9
+KMD Letbetaling,KMD,Microsoft,PaaS,Cloud / AI service provider,9
+KY-Assistent,KOMBIT,Microsoft,IaaS,Cloud / AI service provider,3
+KY-Assistent,KOMBIT,Microsoft,SaaS,Cloud / AI service provider,3
+Kamerabaseret Hovedeftersyn af vejnettet,Vaisala,Hetzner,IaaS,Cloud / AI service provider,1
+Kategorisering og opsummering af høringssvar,Københavns Kommune,Scaleway,IaaS,Cloud / AI service provider,1
+Klinisk AI-Guide (Region Syddanmark),Odense Universitetshospital,Microsoft,PaaS,Cloud / AI service provider,1
+Klinisk AI-Guide (Region Syddanmark),Odense Universitetshospital,On-premises,Not specified,No external CSP,1
+Kommune Kiri,Boost AI,Microsoft,SaaS,Cloud / AI service provider,1
+Konsido,Konsido,Microsoft,IaaS,Cloud / AI service provider,1
+Konsido,Konsido,Microsoft,PaaS,Cloud / AI service provider,1
+Konsido,Konsido,OVHCloud,IaaS,Cloud / AI service provider,3
+Konsido,Konsido,OVHCloud,PaaS,Cloud / AI service provider,3
+Let's Talk,Edora,Vendor-hosted (no external CSP),Not specified,No external CSP,4
+LiverPRO,Evido Health,On-premises,Not specified,No external CSP,2
+MUNI,Boost AI,Amazon,IaaS,Cloud / AI service provider,12
+MUNI,Boost AI,Microsoft,SaaS,Cloud / AI service provider,12
+MUNI,Boost AI,VIER,PaaS,Cloud / AI service provider,12
+MethoTrack – Monitorering af MTX-patienter,OUH Svendborg,On-premises,Not specified,No external CSP,1
+Metodevejlederen,Aalborg Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Metodevejlederen,Aalborg Kommune,Microsoft,PaaS,Cloud / AI service provider,1
+Microsoft 365 Co-Pilot,Microsoft,Vendor-hosted (no external CSP),Not specified,No external CSP,21
+Microsoft Teams AI-transskribering,Microsoft,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+MinGPT,Promte,On-premises,Not specified,No external CSP,1
+OS2taletiltekst (memoctopus),Hjørring Kommune; Region Nordjylland; Syddjurs Kommune,On-premises,Not specified,No external CSP,3
+Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS,Cloud / AI service provider,18
+PHAIR,Bispebjerg Hospital; Frederiksberg Hospital; Københavns Universitet; Lægemiddelstyrelsen (Danish Medicines Agency); Region Hovedstaden; Statens Serum Institut; Syddansk Universitet,Danish National Genome Center,IaaS,Public-sector infrastructure,7
+PREMIO COLLAB,RECOMIA,SliceVault,SaaS,Cloud / AI service provider,5
+PROTECT – AI til bugspytkræftdiagnose,Odense Universitetshospital,On-premises,Not specified,No external CSP,1
+PULS – Automatisk delineation til strålebehandling,Odense Universitetshospital,On-premises,Not specified,No external CSP,1
+Pondoo AI,Pondoo,UpCloud,IaaS,Cloud / AI service provider,6
+Power Automate (tidligere Microsoft Flow),Microsoft,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+Praemostro – AI til kapacitetsstyring på skadestuen,Praemostro,Hetzner,IaaS,Cloud / AI service provider,1
+Praemostro – AI til kapacitetsstyring på skadestuen,Praemostro,On-premises,Not specified,No external CSP,1
+Prediktion af hofteledsdysplasi hos nyfødte,Region Midtjylland,On-premises,Not specified,No external CSP,1
+Projekt Assistent,Furesø Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Projekt Assistent,Furesø Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+Property AI,Proprty.AI,Amazon,IaaS,Cloud / AI service provider,2
+Property AI,Proprty.AI,Microsoft,IaaS,Cloud / AI service provider,2
+Property AI,Proprty.AI,Microsoft,PaaS,Cloud / AI service provider,2
+RBfracture – AI til knoglebrud,Radiobotics,On-premises,Not specified,No external CSP,1
+RandersGPT,Randers Kommune,Hetzner,IaaS,Cloud / AI service provider,1
+RandersGPT,Randers Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+Rigshospitalet chatbot,2021.ai,Microsoft,IaaS,Cloud / AI service provider,1
+Rigshospitalet chatbot,2021.ai,Microsoft,PaaS,Cloud / AI service provider,1
+RoboRef,Droids Agency,Microsoft,IaaS,Cloud / AI service provider,3
+RoboRef,Droids Agency,Microsoft,PaaS,Cloud / AI service provider,3
+SAPA - AI assistent (Pilot),KOMBIT,Microsoft,IaaS,Cloud / AI service provider,1
+SLB HR ChatBot,Sygehus Lillebælt,Microsoft,IaaS,Cloud / AI service provider,1
+SLB HR ChatBot,Sygehus Lillebælt,On-premises,Not specified,No external CSP,1
+Sagsunderstøttende chatbot på byggesagsområdet,Deloitte,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+Smart Tree Inventory,GREEHILL,Microsoft,IaaS,Cloud / AI service provider,7
+SmartMail,Droids Agency,Microsoft,IaaS,Cloud / AI service provider,1
+SmartUrgences,Human Bytes,Microsoft,IaaS,Cloud / AI service provider,1
+SmartUrgences,Human Bytes,Milvue,SaaS,Cloud / AI service provider,1
+Stillingsopslag,Københavns Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Stillingsopslag,Københavns Kommune,Microsoft,PaaS,Cloud / AI service provider,1
+Stillingsopslags app,Furesø Kommune,Microsoft,IaaS,Cloud / AI service provider,1
+Stillingsopslags app,Furesø Kommune,Microsoft,SaaS,Cloud / AI service provider,1
+TRIM_Neuro – AI til neurologisk opfølgning,Odense Universitetshospital,On-premises,Not specified,No external CSP,1
+Treat – AI til antibiotikaforbrug,Treat Systems,On-premises,Not specified,No external CSP,1
+Tælling af mennesker og trafik i bymidten,ATKI,GoodVision AI,SaaS,Cloud / AI service provider,1
+Tælling af mennesker og trafik i bymidten,ATKI,Vendor-hosted (no external CSP),Not specified,No external CSP,1
+Velatir,Velatir,Scaleway,IaaS,Cloud / AI service provider,4

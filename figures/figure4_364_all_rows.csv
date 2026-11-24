@@ -1,0 +1,483 @@
+Authority,System,Vendor,CSP,Layer
+Fredensborg Kommune,Acadre support AI agent,In-house (the authority itself),Microsoft,SaaS
+Sygehus Lillebælt,ADVANCE Chest CT,Contextflow,On-premises,Not specified
+Gentofte Kommune,AffaldsABC – AI-assistent til affaldssortering,Sweco,Rackhosting,IaaS
+Frederiksberg Kommune,AI assistent ’SikkerBot’,In-house (the authority itself),Microsoft,IaaS
+Frederiksberg Kommune,AI assistent ’SikkerBot’,In-house (the authority itself),Microsoft,SaaS
+Syddjurs Kommune,AI Databaseret Process Mining,Microsoft,Microsoft,Not specified
+Gentofte Kommune,AI GDPR bot,Promte,Microsoft,IaaS
+Aarhus Kommune,AI HotSpot,In-house (the authority itself),OpenAI,SaaS
+Region Hovedstaden,AI i 1-1-2-opkald til apopleksi-detektering,Corti,Corti,SaaS
+Region Sjælland,AI i 1-1-2-opkald til apopleksi-detektering,Corti,Corti,SaaS
+Gentofte Kommune,AI I BYGGESAGSBEHANDLING,cBrain,Vendor-hosted (no external CSP),Not specified
+Odense Universitetshospital,AI Mammo,Human Bytes,Screenpoint Medical,SaaS
+Odense Universitetshospital,AI Mammo,Human Bytes,On-premises,Not specified
+Region Hovedstaden,AI Mammo,Human Bytes,Screenpoint Medical,SaaS
+Region Hovedstaden,AI Mammo,Human Bytes,On-premises,Not specified
+Region Midtjylland,AI Mammo,Human Bytes,Screenpoint Medical,SaaS
+Region Midtjylland,AI Mammo,Human Bytes,On-premises,Not specified
+Region Nordjylland,AI Mammo,Human Bytes,Screenpoint Medical,SaaS
+Region Nordjylland,AI Mammo,Human Bytes,On-premises,Not specified
+Odense Universitetshospital,AI til patientklager,In-house (the authority itself),On-premises,Not specified
+Region Syddanmark,AI til patientklager,In-house (the authority itself),On-premises,Not specified
+Odense Universitetshospital,AI til prostatakræft-patologi,Aiforia,Microsoft,IaaS
+Region Syddanmark,AI til prostatakræft-patologi,Aiforia,Microsoft,IaaS
+Region Syddanmark,AI til trombofiliudredning,In-house (the authority itself),Indsigt.ai,SaaS
+Region Syddanmark,AI til trombofiliudredning,In-house (the authority itself),On-premises,Not specified
+Holbæk Sygehus,AI udeblivelse,Region Hovedstaden,Epic,SaaS
+Assens Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Assens Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Ballerup Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Ballerup Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Billund Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Billund Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Fredericia Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Fredericia Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Frederiksberg Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Frederiksberg Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Gribskov Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Gribskov Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Hjørring Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Hjørring Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Hvidovre Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Hvidovre Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Kolding Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Kolding Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Lolland Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Lolland Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Middelfart Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Middelfart Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Norddjurs Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Norddjurs Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Odsherred Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Odsherred Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Sønderborg Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Sønderborg Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Vejle Kommune,AI-assistent til KSD,KOMBIT,Microsoft,IaaS
+Vejle Kommune,AI-assistent til KSD,KOMBIT,Microsoft,SaaS
+Region Midtjylland,AI-indtegning til strålebehandling (inkl. thorax),In-house (the authority itself),On-premises,Not specified
+Vejle Kommune,AI-inferens på Gefion,In-house (the authority itself),DCAI - Danish Centre for AI Innovation,Not specified
+Plan- og Landdistriktsstyrelsen,AI-Miljørapport (arbejdstitel),syv.ai,Vendor-hosted (no external CSP),Not specified
+Randers Kommune,AI-portal,In-house (the authority itself),Hetzner,IaaS
+Randers Kommune,AI-portal,In-house (the authority itself),Microsoft,SaaS
+Vejle Kommune,AI-screening til indsats om sygedagpenge,In-house (the authority itself),Microsoft,PaaS
+Vejle Kommune,AI-screening til indsats om sygedagpenge,In-house (the authority itself),On-premises,Not specified
+Sundhedsstyrelsen,AI-understøttet sagsbehandling,Knowit,OpenAI,SaaS
+Sydvestjysk Sygehus,AI-understøttet vagtplanlægning (SVS),In-house (the authority itself),On-premises,Not specified
+Odense Universitetshospital,AID_MIND,In-house (the authority itself),Regional IT Syddanmark,Not specified
+Syddansk Universitet,AID_MIND,In-house (the authority itself),Regional IT Syddanmark,Not specified
+Center for Digital Psykiatri,AID_NOTE,In-house (the authority itself),Microsoft,IaaS
+Center for Digital Psykiatri,AID_NOTE,In-house (the authority itself),Corti,SaaS
+Center for Digital Psykiatri,AID_NOTE,In-house (the authority itself),Omilon,SaaS
+Odense Universitetshospital,AID_NOTE,In-house (the authority itself),Microsoft,IaaS
+Odense Universitetshospital,AID_NOTE,In-house (the authority itself),Corti,SaaS
+Odense Universitetshospital,AID_NOTE,In-house (the authority itself),Omilon,SaaS
+Sygehus Lillebælt,AID_NOTE,In-house (the authority itself),Microsoft,IaaS
+Sygehus Lillebælt,AID_NOTE,In-house (the authority itself),Corti,SaaS
+Sygehus Lillebælt,AID_NOTE,In-house (the authority itself),Omilon,SaaS
+Sygehus Sønderjylland,AID_NOTE,In-house (the authority itself),Microsoft,IaaS
+Sygehus Sønderjylland,AID_NOTE,In-house (the authority itself),Corti,SaaS
+Sygehus Sønderjylland,AID_NOTE,In-house (the authority itself),Omilon,SaaS
+Odense Universitetshospital,AIM-SAFE – AI til medicinhåndtering og kræftbehandling,In-house (the authority itself),On-premises,Not specified
+Sygehus Sønderjylland,AIM-SAFE – AI til medicinhåndtering og kræftbehandling,In-house (the authority itself),On-premises,Not specified
+Sygehus Lillebælt,AirCON – AI til kræftbestråling,In-house (the authority itself),On-premises,Not specified
+Region Hovedstaden,ALF – AI til transskribering af psykoterapisamtaler,In-house (the authority itself),On-premises,Not specified
+Aalborg Universitetshospital,ArtPlan – Automatisk delineation af risikoorganer,Human Bytes,Therapanacea,SaaS
+Aalborg Universitetshospital,ArtPlan – Automatisk delineation af risikoorganer,Human Bytes,On-premises,Not specified
+Region Nordjylland,ArtPlan – Automatisk delineation af risikoorganer,Human Bytes,Therapanacea,SaaS
+Region Nordjylland,ArtPlan – Automatisk delineation af risikoorganer,Human Bytes,On-premises,Not specified
+Furesø Kommune,Assistent til afgørelser på socialområdet,In-house (the authority itself),Microsoft,IaaS
+Furesø Kommune,Assistent til afgørelser på socialområdet,In-house (the authority itself),Microsoft,SaaS
+Sydvestjysk Sygehus,Automatisk evaluering af luftvejsændringer efter kæbekirurgi,In-house (the authority itself),On-premises,Not specified
+Furesø Kommune,Barnets Lov-assistent,In-house (the authority itself),Microsoft,IaaS
+Furesø Kommune,Barnets Lov-assistent,In-house (the authority itself),Microsoft,SaaS
+ATP,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+ATP,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+"Børne-, Ældre- og Boligministeriet",Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+"Børne-, Ældre- og Boligministeriet",Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+"By-, Land- og Kirkeministeriet",Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+"By-, Land- og Kirkeministeriet",Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Datatilsynet,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Datatilsynet,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Digitaliseringsstyrelsen,Børge,In-house (the authority itself),Statens IT,IaaS
+Digitaliseringsstyrelsen,Børge,In-house (the authority itself),Anthropic,SaaS
+Færdselsstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Færdselsstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Familieretshuset,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Familieretshuset,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Fødevarestyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Fødevarestyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Gældsstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Gældsstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Hjemmeværnskommandoen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Hjemmeværnskommandoen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Miljøstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Miljøstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Motorstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Motorstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Personelkommandoen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Personelkommandoen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Rigsarkivet,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Rigsarkivet,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Rigspolitiet,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Rigspolitiet,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Skattestyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Skattestyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Slots- og Kulturstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Slots- og Kulturstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Socialministeriet,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Socialministeriet,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Styrelsen for Arbejdsmarked og Rekruttering,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Styrelsen for Arbejdsmarked og Rekruttering,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Styrelsen for Danmarks Fængsler,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Styrelsen for Danmarks Fængsler,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Styrelsen for Grøn Arealomlægning og Vandmiljø,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Styrelsen for Grøn Arealomlægning og Vandmiljø,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Styrelsen for International Rekruttering og Integration,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Styrelsen for International Rekruttering og Integration,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Styrelsen for Samfundssikkerhed,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Styrelsen for Samfundssikkerhed,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Trafikstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Trafikstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Uddannelses- og Forskningsstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Uddannelses- og Forskningsstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Undervisningsministeriet,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Undervisningsministeriet,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Vurderingsstyrelsen,Børge,Digitaliseringsstyrelsen,Statens IT,IaaS
+Vurderingsstyrelsen,Børge,Digitaliseringsstyrelsen,Anthropic,SaaS
+Helsingør Kommune,ByhistoriskGPT,Digital Impact,Amazon,IaaS
+Furesø Kommune,Byrådsassistent,In-house (the authority itself),Microsoft,IaaS
+Furesø Kommune,Byrådsassistent,In-house (the authority itself),Microsoft,SaaS
+Frederiksberg Kommune,Candeno,Candeno,ScanNet,IaaS
+Frederiksberg Kommune,Candeno,Candeno,Microsoft,SaaS
+Kolding Kommune,Candeno,Candeno,ScanNet,IaaS
+Kolding Kommune,Candeno,Candeno,Microsoft,SaaS
+Odense Kommune,Candeno,Candeno,ScanNet,IaaS
+Odense Kommune,Candeno,Candeno,Microsoft,SaaS
+Randers Kommune,Candeno,Candeno,ScanNet,IaaS
+Randers Kommune,Candeno,Candeno,Microsoft,SaaS
+Tårnby Kommune,Candeno,Candeno,ScanNet,IaaS
+Tårnby Kommune,Candeno,Candeno,Microsoft,SaaS
+Vejle Kommune,Candeno,Candeno,ScanNet,IaaS
+Vejle Kommune,Candeno,Candeno,Microsoft,SaaS
+Herning Kommune,Chatbot i VAR,VAR Healthcare DK,Microsoft,IaaS
+Herning Kommune,Chatbot i VAR,VAR Healthcare DK,raffle.ai,SaaS
+Horsens Kommune,Chatbot til Aula Support,In-house (the authority itself),Microsoft,IaaS
+Horsens Kommune,Chatbot til Aula Support,In-house (the authority itself),Microsoft,SaaS
+Horsens Kommune,Chatbot til Byrådet,In-house (the authority itself),Microsoft,IaaS
+Horsens Kommune,Chatbot til Byrådet,In-house (the authority itself),Microsoft,SaaS
+Region Hovedstaden,Chatbot til gymnasiefordeling,In-house (the authority itself),Databricks,PaaS
+Region Hovedstaden,Chatbot til gymnasiefordeling,In-house (the authority itself),On-premises,Not specified
+Region Nordjylland,CMri – MR-scanning af hjernesygdomme,Human Bytes,Microsoft,IaaS
+Region Nordjylland,CMri – MR-scanning af hjernesygdomme,Human Bytes,Combinostics,SaaS
+Gentofte Kommune,"Coeus – AI til brug for onboarding i Borger, Erhverv, Beskæftigelse og Integration",In-house (the authority itself),Coeus,SaaS
+Assens Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Fredensborg Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Frederikshavn Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Gentofte Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Lolland Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Odder Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Ringsted Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Silkeborg Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Sønderborg Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Varde Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Vejen Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Viborg Kommune,COPILOT,Microsoft,Microsoft,Not specified
+Odense Universitetshospital,Den intelligente patientjournal (IPJ),In-house (the authority itself),Indsigt.ai,SaaS
+Odense Universitetshospital,Den intelligente patientjournal (IPJ),In-house (the authority itself),On-premises,Not specified
+Sygehus Lillebælt,DeSeRT 2 – Risikovurdering af akutte patienter,In-house (the authority itself),SAS Institute,SaaS
+Sygehus Lillebælt,DeSeRT 2 – Risikovurdering af akutte patienter,In-house (the authority itself),On-premises,Not specified
+Region Nordjylland,Detektion af thorax-abnormiteter,Human Bytes,Harrison.ai,SaaS
+Region Nordjylland,Detektion af thorax-abnormiteter,Human Bytes,On-premises,Not specified
+Sygehus Lillebælt,Detektion af thorax-abnormiteter,Human Bytes,Harrison.ai,SaaS
+Sygehus Lillebælt,Detektion af thorax-abnormiteter,Human Bytes,On-premises,Not specified
+Odense Universitetshospital,Diagnose af porfyri,In-house (the authority itself),On-premises,Not specified
+Odsherred Kommune,Digital Human Platform,NTT Data Business Solutions,Amazon,IaaS
+Odsherred Kommune,Digital Human Platform,NTT Data Business Solutions,Microsoft,IaaS
+Odsherred Kommune,Digital Human Platform,NTT Data Business Solutions,Google,PaaS
+Odsherred Kommune,Digital Human Platform,NTT Data Business Solutions,Microsoft,PaaS
+Fredensborg Kommune,EG Optima og Optima Loop AI agent,In-house (the authority itself),Microsoft,SaaS
+Esbjerg Kommune,EKbot – chatbotten på Esbjerg Kommunes intranet,InDialog.ai,team.blue,IaaS
+Esbjerg Kommune,EKbot – chatbotten på Esbjerg Kommunes intranet,InDialog.ai,Microsoft,PaaS
+Vejle Kommune,Eventassistent til PostNord Danmark Rundt 2026,Promte,Microsoft,IaaS
+Vejle Kommune,Eventassistent til PostNord Danmark Rundt 2026,Promte,Microsoft,PaaS
+Region Nordjylland,EyeArt – Screening for øjensygdomme,Human Bytes,Amazon,IaaS
+Region Nordjylland,EyeArt – Screening for øjensygdomme,Human Bytes,Eyenuk,SaaS
+Thisted Kommune,FagbiblioteksGPT,In-house (the authority itself),Microsoft,IaaS
+Thisted Kommune,FagbiblioteksGPT,In-house (the authority itself),Microsoft,SaaS
+Aalborg Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Aarhus Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Esbjerg Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Holbæk Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Kerteminde Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Københavns Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Region Midtjylland,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Region Sjælland,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Ringsted Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Slagelse Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Sønderborg Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Sorø Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Syddjurs Kommune,FleetOptimiser,Droids Agency,Servicepoint,IaaS
+Region Sjælland,Forebyggelse af komplikationer efter tarmkræftkirurgi,In-house (the authority itself),Danmarks Tekniske Universitet,Not specified
+Sjællands Universitetshospital,Forebyggelse af komplikationer efter tarmkræftkirurgi,In-house (the authority itself),Danmarks Tekniske Universitet,Not specified
+Gentofte Kommune,FritidsGPT POC,Fellowmind Denmark,Microsoft,IaaS
+Gentofte Kommune,FritidsGPT POC,Fellowmind Denmark,Microsoft,PaaS
+Vejle Kommune,Generativ AI Site Search,Cludo,Amazon,IaaS
+Vejle Kommune,Generativ AI Site Search,Cludo,Amazon,PaaS
+Vejle Kommune,Generativ AI Site Search,Cludo,OpenAI,SaaS
+Tønder Kommune,Gillie.AI,Gillie.AI,Amazon,IaaS
+Tønder Kommune,Gillie.AI,Gillie.AI,Google,SaaS
+Københavns Kommune,Graffitirenhold,Edora,Amazon,IaaS
+Furesø Kommune,Høringssvar app,Fellowmind Denmark,Microsoft,IaaS
+Furesø Kommune,Høringssvar app,Fellowmind Denmark,Microsoft,PaaS
+Furesø Kommune,Høringssvar app,Fellowmind Denmark,Microsoft,SaaS
+Aarhus Kommune,Høringssvar applikation,In-house (the authority itself),Microsoft,IaaS
+Aarhus Kommune,Høringssvar applikation,In-house (the authority itself),Microsoft,PaaS
+Vejle Kommune,InDialog/ Bertha,InDialog.ai,Microsoft,PaaS
+Region Midtjylland,Intelligent søgning i E-dok,Fellowmind Denmark,Ankiro,SaaS
+Region Midtjylland,Intelligent søgning i E-dok,Fellowmind Denmark,Vendor-hosted (no external CSP),Not specified
+Aabenraa Kommune,Intern Opkrævnings Chatbot,GPT-trainer,Amazon,IaaS
+Gentofte Kommune,KAI,In-house (the authority itself),OpenAI,SaaS
+Billund Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Billund Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Billund Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Billund Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Bornholms Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Bornholms Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Bornholms Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Bornholms Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Brønderslev Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Brønderslev Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Brønderslev Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Brønderslev Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Frederikshavn Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Frederikshavn Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Frederikshavn Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Frederikshavn Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Hvidovre Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Hvidovre Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Hvidovre Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Hvidovre Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Ikast-Brande Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Ikast-Brande Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Ikast-Brande Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Ikast-Brande Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Lolland Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Lolland Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Lolland Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Lolland Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Odsherred Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Odsherred Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Odsherred Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Odsherred Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Ringsted Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Ringsted Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Ringsted Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Ringsted Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Thisted Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Thisted Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Thisted Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Thisted Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Varde Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Varde Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Varde Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Varde Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Viborg Kommune,KAILA,Karnov Group Denmark,Google,IaaS
+Viborg Kommune,KAILA,Karnov Group Denmark,Microsoft,IaaS
+Viborg Kommune,KAILA,Karnov Group Denmark,Google,PaaS
+Viborg Kommune,KAILA,Karnov Group Denmark,Microsoft,PaaS
+Københavns Kommune,Kamerabaseret Hovedeftersyn af vejnettet,Vaisala,Hetzner,IaaS
+Københavns Kommune,Kategorisering og opsummering af høringssvar,In-house (the authority itself),Scaleway,IaaS
+Odense Universitetshospital,Klinisk AI-Guide (Region Syddanmark),In-house (the authority itself),Microsoft,PaaS
+Odense Universitetshospital,Klinisk AI-Guide (Region Syddanmark),In-house (the authority itself),On-premises,Not specified
+Aarhus Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Aarhus Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Brønderslev Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Brønderslev Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Faxe Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Faxe Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Guldborgsund Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Guldborgsund Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Halsnæs Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Halsnæs Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Kerteminde Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Kerteminde Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Lolland Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Lolland Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Randers Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Randers Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Sønderborg Kommune,KMD Letbetaling,KMD,Microsoft,IaaS
+Sønderborg Kommune,KMD Letbetaling,KMD,Microsoft,PaaS
+Roskilde Kommune,Kommune Kiri,Boost AI,Microsoft,SaaS
+Aarhus Kommune,Konsido,Konsido,OVHCloud,IaaS
+Aarhus Kommune,Konsido,Konsido,OVHCloud,PaaS
+Esbjerg Kommune,Konsido,Konsido,OVHCloud,IaaS
+Esbjerg Kommune,Konsido,Konsido,OVHCloud,PaaS
+Nordfyns Kommune,Konsido,Konsido,Microsoft,IaaS
+Nordfyns Kommune,Konsido,Konsido,Microsoft,PaaS
+Odense Kommune,Konsido,Konsido,OVHCloud,IaaS
+Odense Kommune,Konsido,Konsido,OVHCloud,PaaS
+Assens Kommune,KY-Assistent,KOMBIT,Microsoft,IaaS
+Assens Kommune,KY-Assistent,KOMBIT,Microsoft,SaaS
+Frederiksberg Kommune,KY-Assistent,KOMBIT,Microsoft,IaaS
+Frederiksberg Kommune,KY-Assistent,KOMBIT,Microsoft,SaaS
+Lolland Kommune,KY-Assistent,KOMBIT,Microsoft,IaaS
+Lolland Kommune,KY-Assistent,KOMBIT,Microsoft,SaaS
+Assens Kommune,Let's Talk,Edora,Vendor-hosted (no external CSP),Not specified
+Faxe Kommune,Let's Talk,Edora,Vendor-hosted (no external CSP),Not specified
+Lolland Kommune,Let's Talk,Edora,Vendor-hosted (no external CSP),Not specified
+Tønder Kommune,Let's Talk,Edora,Vendor-hosted (no external CSP),Not specified
+Region Nordjylland,LiverPRO,Evido Health,On-premises,Not specified
+Region Syddanmark,LiverPRO,Evido Health,On-premises,Not specified
+OUH Svendborg,MethoTrack – Monitorering af MTX-patienter,In-house (the authority itself),On-premises,Not specified
+Aalborg Kommune,Metodevejlederen,In-house (the authority itself),Microsoft,IaaS
+Aalborg Kommune,Metodevejlederen,In-house (the authority itself),Microsoft,PaaS
+Assens Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Ballerup Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Brønderslev Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Fredensborg Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Frederiksberg Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Frederikshavn Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Gentofte Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Haderslev Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Halsnæs Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Morsø Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Odder Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Odsherred Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Randers Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Ringsted Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Silkeborg Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Sønderborg Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Thisted Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Varde Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Vejen Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Vejle Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Viborg Kommune,Microsoft 365 Co-Pilot,Microsoft,Microsoft,Not specified
+Vejen Kommune,Microsoft Teams AI-transskribering,Microsoft,Microsoft,Not specified
+Vejle Kommune,MinGPT,Promte,On-premises,Not specified
+Aalborg Kommune,MUNI,Boost AI,Amazon,IaaS
+Aalborg Kommune,MUNI,Boost AI,VIER,PaaS
+Aalborg Kommune,MUNI,Boost AI,Microsoft,SaaS
+Aarhus Kommune,MUNI,Boost AI,Amazon,IaaS
+Aarhus Kommune,MUNI,Boost AI,VIER,PaaS
+Aarhus Kommune,MUNI,Boost AI,Microsoft,SaaS
+Aarhus Universitetshospital,MUNI,Boost AI,Amazon,IaaS
+Aarhus Universitetshospital,MUNI,Boost AI,VIER,PaaS
+Aarhus Universitetshospital,MUNI,Boost AI,Microsoft,SaaS
+Brønderslev Kommune,MUNI,Boost AI,Amazon,IaaS
+Brønderslev Kommune,MUNI,Boost AI,VIER,PaaS
+Brønderslev Kommune,MUNI,Boost AI,Microsoft,SaaS
+Fredericia Kommune,MUNI,Boost AI,Amazon,IaaS
+Fredericia Kommune,MUNI,Boost AI,VIER,PaaS
+Fredericia Kommune,MUNI,Boost AI,Microsoft,SaaS
+Frederikshavn Kommune,MUNI,Boost AI,Amazon,IaaS
+Frederikshavn Kommune,MUNI,Boost AI,VIER,PaaS
+Frederikshavn Kommune,MUNI,Boost AI,Microsoft,SaaS
+Hjørring Kommune,MUNI,Boost AI,Amazon,IaaS
+Hjørring Kommune,MUNI,Boost AI,VIER,PaaS
+Hjørring Kommune,MUNI,Boost AI,Microsoft,SaaS
+Morsø Kommune,MUNI,Boost AI,Amazon,IaaS
+Morsø Kommune,MUNI,Boost AI,VIER,PaaS
+Morsø Kommune,MUNI,Boost AI,Microsoft,SaaS
+Randers Kommune,MUNI,Boost AI,Amazon,IaaS
+Randers Kommune,MUNI,Boost AI,VIER,PaaS
+Randers Kommune,MUNI,Boost AI,Microsoft,SaaS
+Ringsted Kommune,MUNI,Boost AI,Amazon,IaaS
+Ringsted Kommune,MUNI,Boost AI,VIER,PaaS
+Ringsted Kommune,MUNI,Boost AI,Microsoft,SaaS
+Thisted Kommune,MUNI,Boost AI,Amazon,IaaS
+Thisted Kommune,MUNI,Boost AI,VIER,PaaS
+Thisted Kommune,MUNI,Boost AI,Microsoft,SaaS
+Viborg Kommune,MUNI,Boost AI,Amazon,IaaS
+Viborg Kommune,MUNI,Boost AI,VIER,PaaS
+Viborg Kommune,MUNI,Boost AI,Microsoft,SaaS
+Hjørring Kommune,OS2taletiltekst (memoctopus),In-house (the authority itself),On-premises,Not specified
+Region Nordjylland,OS2taletiltekst (memoctopus),In-house (the authority itself),On-premises,Not specified
+Syddjurs Kommune,OS2taletiltekst (memoctopus),In-house (the authority itself),On-premises,Not specified
+Aabenraa Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Bornholms Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Fredericia Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Gribskov Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Guldborgsund Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Helsingør Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Holbæk Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Horsens Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Ikast-Brande Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Kolding Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Morsø Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Næstved Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Nordfyns Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Ringsted Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Roskilde Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Stevns Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Svendborg Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Vesthimmerlands Kommune,Overvågning og registrering af § 3-beskyttet natur,koordinat,Amazon,IaaS
+Bispebjerg Hospital,PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Frederiksberg Hospital,PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Københavns Universitet,PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Lægemiddelstyrelsen (Danish Medicines Agency),PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Region Hovedstaden,PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Statens Serum Institut,PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Syddansk Universitet,PHAIR,In-house (the authority itself),Danish National Genome Center,IaaS
+Ikast-Brande Kommune,Pondoo AI,Pondoo,UpCloud,IaaS
+Københavns Kommune,Pondoo AI,Pondoo,UpCloud,IaaS
+Langeland Kommune,Pondoo AI,Pondoo,UpCloud,IaaS
+Lemvig Kommune,Pondoo AI,Pondoo,UpCloud,IaaS
+Norddjurs Kommune,Pondoo AI,Pondoo,UpCloud,IaaS
+Ringsted Kommune,Pondoo AI,Pondoo,UpCloud,IaaS
+Frederikssund Kommune,Power Automate (tidligere Microsoft Flow),Microsoft,Microsoft,Not specified
+Odense Universitetshospital,Praemostro – AI til kapacitetsstyring på skadestuen,Praemostro,Hetzner,IaaS
+Odense Universitetshospital,Praemostro – AI til kapacitetsstyring på skadestuen,Praemostro,On-premises,Not specified
+Region Midtjylland,Prediktion af hofteledsdysplasi hos nyfødte,In-house (the authority itself),On-premises,Not specified
+Region Hovedstaden,PREMIO COLLAB,RECOMIA,SliceVault,SaaS
+Region Midtjylland,PREMIO COLLAB,RECOMIA,SliceVault,SaaS
+Region Nordjylland,PREMIO COLLAB,RECOMIA,SliceVault,SaaS
+Region Sjælland,PREMIO COLLAB,RECOMIA,SliceVault,SaaS
+Region Syddanmark,PREMIO COLLAB,RECOMIA,SliceVault,SaaS
+Furesø Kommune,Projekt Assistent,In-house (the authority itself),Microsoft,IaaS
+Furesø Kommune,Projekt Assistent,In-house (the authority itself),Microsoft,SaaS
+Københavns Kommune,Property AI,Proprty.AI,Microsoft,IaaS
+Københavns Kommune,Property AI,Proprty.AI,Amazon,IaaS
+Københavns Kommune,Property AI,Proprty.AI,Microsoft,PaaS
+Rudersdal Kommune,Property AI,Proprty.AI,Microsoft,IaaS
+Rudersdal Kommune,Property AI,Proprty.AI,Amazon,IaaS
+Rudersdal Kommune,Property AI,Proprty.AI,Microsoft,PaaS
+Odense Universitetshospital,PROTECT – AI til bugspytkræftdiagnose,In-house (the authority itself),On-premises,Not specified
+Odense Universitetshospital,PULS – Automatisk delineation til strålebehandling,In-house (the authority itself),On-premises,Not specified
+Randers Kommune,RandersGPT,In-house (the authority itself),Hetzner,IaaS
+Randers Kommune,RandersGPT,In-house (the authority itself),Microsoft,SaaS
+Sydvestjysk Sygehus,RBfracture – AI til knoglebrud,Radiobotics,On-premises,Not specified
+Rigshospitalet,Rigshospitalet chatbot,2021.ai,Microsoft,IaaS
+Rigshospitalet,Rigshospitalet chatbot,2021.ai,Microsoft,PaaS
+Gladsaxe Kommune,RoboRef,Droids Agency,Microsoft,IaaS
+Gladsaxe Kommune,RoboRef,Droids Agency,Microsoft,PaaS
+Roskilde Kommune,RoboRef,Droids Agency,Microsoft,IaaS
+Roskilde Kommune,RoboRef,Droids Agency,Microsoft,PaaS
+Viborg Kommune,RoboRef,Droids Agency,Microsoft,IaaS
+Viborg Kommune,RoboRef,Droids Agency,Microsoft,PaaS
+Københavns Kommune,Sagsunderstøttende chatbot på byggesagsområdet,Deloitte,Vendor-hosted (no external CSP),Not specified
+Hedensted Kommune,SAPA - AI assistent (Pilot),KOMBIT,Microsoft,IaaS
+Sygehus Lillebælt,SLB HR ChatBot,In-house (the authority itself),Microsoft,IaaS
+Sygehus Lillebælt,SLB HR ChatBot,In-house (the authority itself),On-premises,Not specified
+Aabenraa Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Aarhus Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Ballerup Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Frederiksberg Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Holbæk Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Næstved Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Vejle Kommune,Smart Tree Inventory,GREEHILL,Microsoft,IaaS
+Favrskov Kommune,SmartMail,Droids Agency,Microsoft,IaaS
+Region Nordjylland,SmartUrgences,Human Bytes,Microsoft,IaaS
+Region Nordjylland,SmartUrgences,Human Bytes,Milvue,SaaS
+Københavns Kommune,Stillingsopslag,In-house (the authority itself),Microsoft,IaaS
+Københavns Kommune,Stillingsopslag,In-house (the authority itself),Microsoft,PaaS
+Furesø Kommune,Stillingsopslags app,In-house (the authority itself),Microsoft,IaaS
+Furesø Kommune,Stillingsopslags app,In-house (the authority itself),Microsoft,SaaS
+Kolding Kommune,Tælling af mennesker og trafik i bymidten,ATKI,GoodVision AI,SaaS
+Kolding Kommune,Tælling af mennesker og trafik i bymidten,ATKI,Vendor-hosted (no external CSP),Not specified
+Sygehus Sønderjylland,Treat – AI til antibiotikaforbrug,Treat Systems,On-premises,Not specified
+Odense Universitetshospital,TRIM_Neuro – AI til neurologisk opfølgning,In-house (the authority itself),On-premises,Not specified
+Faaborg-Midtfyn Kommune,Velatir,Velatir,Scaleway,IaaS
+Kalundborg Kommune,Velatir,Velatir,Scaleway,IaaS
+Randers Kommune,Velatir,Velatir,Scaleway,IaaS
+Vejle Kommune,Velatir,Velatir,Scaleway,IaaS

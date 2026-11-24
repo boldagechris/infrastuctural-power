@@ -1,0 +1,226 @@
+Vendor,AI system,CSP,CSM,Cloud service source,CSM confidence,Cloud service description,Link,Notes
+2021.ai,Rigshospitalet chatbot,Microsoft,IaaS,"Vendor website, news",Inferred,Hosting on Microsoft Azure platform,https://2021.ai/news/2021ai-and-microsoft-thelp-organizations-ensure-responsible-use-of-ai-and-large-language-models,
+2021.ai,Rigshospitalet chatbot,Microsoft,PaaS,"Vendor website, news",Inferred,Hosting on Microsoft Azure platform,https://2021.ai/news/2021ai-and-microsoft-thelp-organizations-ensure-responsible-use-of-ai-and-large-language-models,
+2021.ai,Rigshospitalet chatbot,Microsoft,SaaS,Public authority website,Inferred,ChatGPT4,https://digst.dk/kunstig-intelligens/inspirationskatalog-til-generativ-kunstig-intelligens/rigshospitalets-chatbot-besvarer-patienters-spoergsmaal/ https://2021.ai/news/2021ai-and-microsoft-thelp-organizations-ensure-responsible-use-of-ai-and-large-language-models,
+Aiforia,,,,,,,,
+Aisel,,,,,,,,Kan pt ikke finde noget
+Aktio,AKTIO,Hetzner,IaaS,"Vendor website, privacy policy",Ambiguous,We host some of our solutions here,https://www.aktio.ai/privacy,
+Alexandra Instituttet,,,,,,,,
+Appinux,,,,,,,,Mangler at forsøge at finde CSP
+ATKI,,GoodVision AI,SaaS,Vendor contact,,,,Mangler at forsøge at finde CSP
+Avicenna.ai,,,,,,,,Kan pt ikke finde noget
+Boost AI,Kommune Kiri,Amazon,IaaS,"Vendor website, subprocessor list",Explicit,Cloud and hosting provider,https://trustcenter.boost.ai/subprocessors,Cleura can also be chosen
+Boost AI,Kommune Kiri,Cleura,IaaS,"Vendor website, subprocessor list",Explicit,Cloud and hosting provider,https://trustcenter.boost.ai/subprocessors,Can be chosen as an alternative to AWS
+Boost AI,MUNI,Microsoft,SaaS,"Vendor website, subprocessor list",Explicit,"Provision of generative AI services, Speech-to-Text, Text-to-Speech and other voice features, to the extent elected by the customer, and backup of data.",https://trustcenter.boost.ai/subprocessors,This sub-processor is only applicable if elected by the customer
+Boost AI,MUNI,OpenAI,SaaS,"Vendor website, subprocessor list",Explicit,Provision of generative AI services and voice-to-voice for voice agents.,https://trustcenter.boost.ai/subprocessors,This sub-processor is only applicable if elected by the customer
+Boost AI,,Speechmatics,SaaS,"Vendor website, subprocessor list",Explicit,Provides speech-to-text functionality for voice agents.,,
+Boost AI,,VIER,PaaS,"Vendor website, subprocessor list",,,,
+Brickit Inc.,,,,,,,,
+Candeno,,Microsoft,SaaS,Vendor contact,Explicit,"Vores AI-funktioner, fx feedback på CV og målretning af ansøgninger, bruger i dag sprogmodeller via Microsoft Azure.",,
+Candeno,,ScanNet,IaaS,Vendor contact,Explicit,"Vi bruger Scannet til virtuelle servere, som vi har som en cloudløsning hos dem",,
+Capacit,,,,,,,,
+Capgemini,,,,,,,,
+cBrain,,,,,,,,
+Cellari,,,,,,,,
+CerCare,,,,,,,,
+Cerebriu,,OCI (Oracle),SaaS,"CSP website, case example",,"Cerebriu trains life sciences AI models 3X faster on OCI AI infrastructure
+The Danish startup chose Oracle Cloud Infrastructure to develop, train, and deploy its patented AI models to improve radiology.",https://www.oracle.com/europe/customers/cerebriu/,
+Cleardox,,Hetzner,IaaS,"Vendor website, ISAE 3000 report ",,"Cleardox  uses the following sub-supplier and sub-processor, Hetzner. This statement does not include control objectives and related controls at Cleardox ’ sub-supplier
+and sub-processor. Certain control objectives can only be achieved, if the sub-supplier’s controls, which are assumed in the design of our controls, are appropriately designed
+and operationally effective. The description does not include control activities performed by the sub-supplier.",https://cdn.prod.website-files.com/65f4040e1b327517c6e08ed8/6a8bfb93f9660b238e19c1d2_Cleardox__-_ISAE_3000_GDPR_rapport_type_2_for_perioden_1_juli_2025_til_30_juni_2026%20(1).pdf,
+Cludo,Generativ AI Site Search,Amazon,IaaS,"Vendor website, subprocessor list",Explicit,Hosting and infrastructure,https://cludo.com/legal-hub/subprocessors/,
+Cludo,Generativ AI Site Search,OpenAI,SaaS,"Vendor website, subprocessor list",Explicit,"API integration. Part of the search solution on website, reply to prompts regarding website searches. Not being trained by Cludo",https://cludo.com/legal-hub/subprocessors/,
+cNeuro,,,,,,,,Kan pt ikke finde noget
+Combinostics,,,,,,,,
+CompuGroup Medical,,,,,,,,
+Contextflow,,,,,,,,Kan pt ikke finde noget
+Copenhagen Data,,,,,,,,
+Corti,,Corti,SaaS,Web search,,,,
+Deloitte,,,,,,,,Sparket til side pga. scope og størrelse
+DigiRehab,DigiRehab,itpilot,IaaS,"Vendor website, ISAE 3000 assurance report ",Inferred,"""DigiRehab's hosting supplier itpilot  is responsible for monitoring and operating the system.""",https://digirehab.dk/wp-content/uploads/2026/06/SAE_3000_statement_on_personal_data_-_2025_ENG.pdf,
+Digital Impact,ByhistoriskGPT,Amazon,IaaS,"Vendor website, project report",Inferred,"We develop the model from scratch, and are responsible for setting up the database and AWS server where the AI ​​model is hosted.",https://digitalimpact.dk/Assets/pdf/intelligente-oplevelser.pdf,
+Droids Agency,FleetOptimiser,Microsoft,PaaS,"Vendor website, product description",Inferred,,https://www.droidsagency.com/ai-platform,
+Droids Agency,Roboref,Microsoft,SaaS,"Vendor website, product description",Explicit,OpenAI's language model and Whisper hosted on Microsoft,https://www.droidsagency.com/roboref,
+Droids Agency,,Microsoft,IaaS,Municipality contact,,,,
+Droids Agency,FleetOptimiser,Servicepoint,IaaS,"Vendor website, project evaluation",Explicit,"Droids Agency uses a Danish server hosting subcontractor, Servicepoint, who purchases the server capacity in Germany.",https://fleetoptimiser.aarhus.dk/media/eatojnws/slutrapport-fleetoptimiser-2023-2024.pdf,
+Dryp,,,,,,,,Kan pt ikke finde noget
+Edora,Graffitirenhold,Amazon,IaaS,Vendor contact,Explicit,"Say they are creating their own hyperscale cloud service at Edora, but use AWS.",,
+Edora,Let's Talk,Edora Cloud,IaaS,"Vendor website, product description",Explicit,Lets Talk is developed by Edora  and hosted in Edora Cloud.,https://edora.dk/letstalk/?_gl=1*1fsood*_up*MQ..*_ga*MTQxMjU4Nzk3MC4xNzc1MzI1MzU3*_ga_BD4YRN5WXB*czE3NzUzMjUzNTYkbzEkZzEkdDE3NzUzMjUzOTQkajIyJGwwJGg3NzA3MDgwNQ..,
+EdSpace,EdSpace,Microsoft,IaaS,"Vendor website, Q&A",Inferred,Azure underpins the OpenAI activity in EU,,
+EdSpace,EdSpace,OpenAI,SaaS,"Vendor website, Q&A",Inferred,OpenAI's GPT 5,,
+Ento Labs,ENTO,Amazon,IaaS,"Vendor website, subprocessor list",Explicit,Cloud computing service. Hosting of data.,https://www.ento.ai/legal/subprocessors,
+Ento Labs,ENTO,Google,IaaS,"Vendor website, subprocessor list",Explicit,"Cloud computing service. Hosting of data.
+",https://www.ento.ai/legal/subprocessors,
+Ento Labs,ENTO,Hetzner,IaaS,"Vendor website, subprocessor list",Explicit,"Cloud computing service. Hosting of data.
+",https://www.ento.ai/legal/subprocessors,
+Enversion,,,,,,,,Kan pt ikke finde noget
+EU-LISA,,,,,,,,Sparket til side pga. scope og størrelse
+Evido Health,,Amazon,IaaS,,,,,Kan pt ikke finde noget
+F2 cBrain,,,,,,,,Kan pt ikke finde noget
+Fellowmind Denmark,,Ankiro,SaaS,Public authority contact,,,,
+Fellowmind Denmark,,Microsoft,SaaS,"Vendor website, about us ",,"Microsoft Cloud Partner Program
+Som mangeårig Microsoft partner opnåede Fellowmind alle guldcertificeringer i det tidligere partnerprogram.",https://www.fellowmind.com/da-dk/om-os/vores-partnerskab-med-microsoft/,
+Fellowmind Denmark,,Microsoft,PaaS,vendor contact,,,,
+Fellowmind Denmark,,Microsoft,IaaS,vendor contact ,,,,
+First Agenda,,Amazon,IaaS,"Vendor website, safety and security",Explicit,With FirstAgenda you can choose between two secure hosting environments: American Amazon (AWS) and Swedish Binero.,https://www.firstagenda.com/en/sikker-hosting,
+First Agenda,,Binero,IaaS,"Vendor website, safety and security",Explicit,With FirstAgenda you can choose between two secure hosting environments: American Amazon (AWS) and Swedish Binero.,https://www.firstagenda.com/en/sikker-hosting,
+First Agenda,,Droids Agency,SaaS,"Vendor website, product description",Inferred,Droids Agency translates advanced technology into a user-friendly and practical solution.,https://www.firstagenda.com/en/firstagenda-ai,
+First Agenda,,Ordbogen,SaaS,"Vendor website, product description",Inferred,The solution is built on Ordbogen.ai's Danish AI platform,https://www.firstagenda.com/en/firstagenda-ai,
+GE HealthCare,,Amazon,PaaS,"Vendor website, about, newsroom",,Amazon bedrock,https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-and-aws-announce-strategic-collaboration-to-accelerate-healthcare-transformation-with-generative-ai?utm_source=chatgpt.com,
+Genair8 ,,ScanNet,IaaS,"Vendor website, privacy policy",Explicit,The primary infrastructure and cloud hosting provider,https://genair8.com/privacy-policy/,
+Gillie.AI,,Amazon,IaaS,,,,https://support.gillie.ai/hc/en-us/articles/360002234337-Azure-Active-Directory-Microsoft-Entra-ID-authentication,"De nævner at Azure har en funktion under implementering af deres produkt, men vidste ikke om det decideret var et argument for at Azure kan noteres som en CSP"
+Gillie.AI,,Google,SaaS,,,,https://support.gillie.ai/hc/en-us/articles/360002234337-Azure-Active-Directory-Microsoft-Entra-ID-authentication,"De nævner at Azure har en funktion under implementering af deres produkt, men vidste ikke om det decideret var et argument for at Azure kan noteres som en CSP"
+Gismap ,,Amazon,IaaS,Vendor contact,Explicit,Gismaps platform er i dag hostet hos Amazon (AWS),,
+Gismap ,,OpenAI,SaaS,Vendor contact,Explicit,Gismaps platform er i dag hostet hos Amazon (AWS),,
+Gleamer,,,,,,,,
+Globeteam ,,,,,,,,
+GPT-trainer,,Amazon,IaaS,"Vendor website, trust center",Explicit,We use Amazon (AWS) for hosting.,,
+GREEHILL,,Microsoft,IaaS,vendor contact,,,,Kan pt ikke finde noget
+Groove X,,,,,,,,Kan pt ikke finde noget
+Heimdal Security,Heimdal DNS,Amazon,IaaS,Vendor website,Explicit,Infrastructure is hosted ,https://support.heimdalsecurity.com/hc/en-us/articles/4409791264657-HEIMDAL-infrastructure-and-environment,
+Heimdal Security,Heimdal DNS,Microsoft,IaaS,Vendor website,Explicit,Infrastructure is hosted ,https://support.heimdalsecurity.com/hc/en-us/articles/4409791264657-HEIMDAL-infrastructure-and-environment,
+Hello Ebbot,,Google,IaaS,CSP website,Inferred,"TOPdesk notice: Ebbot products are hosted in one of Ebbot's public cloud locations, with customers choosing OVHcloud (France or Germany) or Google Platform (Finland by default).",https://status.topdesk.com/incidents/nxm24fxz0w7r,
+Hello Ebbot,,OVHCloud,IaaS,CSP website,Explicit,Ebbot moved from a US cloud provider to OVHcloud and uses NVIDIA V100 and H100 GPUs for its generative AI (GPU compute = IaaS).,https://www.ovhcloud.com/en-gb/case-studies/ebbot/,
+HUGIN EXPERT,,,,,,,,Kan pt ikke finde noget
+Human Bytes,AI Mammo,Amazon,IaaS,Vendor contact,Explicit,Cloud hosted,,"Gælder ikke AI-projektet, AI Mammo, som hostes on-prem ""AI solutions are generally operated in the cloud where we use AWS, Azure, Google"""
+Human Bytes,AI Mammo,Amazon,IaaS,Vendor contact,Explicit,Cloud hosted,,"Gælder ikke AI-projektet, AI Mammo, som hostes on-prem ""AI solutions are generally operated in the cloud where we use AWS, Azure, Google"""
+Human Bytes,AI Mammo,Combinostics,SaaS,,,,,
+Human Bytes,AI Mammo,Eyenuk,SaaS,,,,,
+Human Bytes,AI Mammo,Google,IaaS,Vendor contact,Explicit,Cloud hosted,,"Gælder ikke AI-projektet, AI Mammo, som hostes on-prem ""AI solutions are generally operated in the cloud where we use AWS, Azure, Google"""
+Human Bytes,AI Mammo,Harrison.ai,SaaS,,,,,
+Human Bytes,AI Mammo,Microsoft,IaaS,Vendor contact,Explicit,Cloud hosted,,"Gælder ikke AI-projektet, AI Mammo, som hostes on-prem ""AI solutions are generally operated in the cloud where we use AWS, Azure, Google"""
+Human Bytes,AI Mammo,Milvue,SaaS,,,,,
+Human Bytes,AI Mammo,Screenpoint Medical,SaaS,,,,,
+Human Bytes,AI Mammo,Therapanacea,SaaS,,,,,
+IBEX Medical Analytics,,Amazon,IaaS,"Vendor website, sub-processors list",Explicit,Cloud Computing Infrastructure,https://ibex-ai.com/wp-content/uploads/2025/08/IBEX-Vendor-List-APM-3.2.25.docx-1-1.pdf,
+InDialog.ai,,Microsoft,PaaS,"Vendor website, data processing agreement",Inferred,"Load balancing, NLP and Cognitive Services management (EU cloud)",https://www.indialog.ai/wp-content/uploads/Standardskabelon-til-Databehandleraftale.pdf,
+InDialog.ai,,team.blue Denmark ,IaaS,"Vendor website, data processing agreement",Inferred,"Hosting of service, database hosting",https://www.indialog.ai/wp-content/uploads/Standardskabelon-til-Databehandleraftale.pdf,
+Indsigt.ai,,,,,,,,"Kan pt ikke finde noget. Derudover skriver de på deres hjemmeside ""Databehandling, adgang og ansvar afklares før implementering"", så måske har de ikke en CSP som de som udgangspunkt bruger"
+IQVIA SOLUTIONS DENMARK,,,,,,,,Kan pt ikke finde noget
+IT34,,,,,,,https://it34.com/wp-content/uploads/Forretningsbetingelser-IT34-v10-6-2024.pdf,"§14 i forretningsbetingelserne, beskriver bla. at ""Servere, data og backup afvikles og opbevares i Danmark"", men ikke af hvem"
+ITS Teknik,,,,,,,,Kan pt ikke finde noget
+Karnov Group Denmark,KAILA,Google,PaaS,"Vendor website, license terms",Inferred,Provider of generative AI functionalities. Google Vertex AI,https://www.karnovgroup.dk/hubfs/denmark/marketing_collateral/Templates/Licensvilkår%20-%20Karnov%20Group%20-%20Version%203.1%20-%20%20251125-1.pdf,
+Karnov Group Denmark,KAILA,Google,IaaS,"Vendor website, license terms",Explicit,Cloud hosting provider,https://www.karnovgroup.dk/hubfs/denmark/marketing_collateral/Templates/Licensvilkår%20-%20Karnov%20Group%20-%20Version%203.1%20-%20%20251125-1.pdf,
+Karnov Group Denmark,KAILA,Microsoft,PaaS,"Vendor website, license terms",Inferred,Provider of generative AI functionalities,https://www.karnovgroup.dk/hubfs/denmark/marketing_collateral/Templates/Licensvilkår%20-%20Karnov%20Group%20-%20Version%203.1%20-%20%20251125-1.pdf,
+Karnov Group Denmark,KAILA,Microsoft,IaaS,"Vendor website, license terms",Explicit,Cloud hosting provider,https://www.karnovgroup.dk/hubfs/denmark/marketing_collateral/Templates/Licensvilkår%20-%20Karnov%20Group%20-%20Version%203.1%20-%20%20251125-1.pdf,
+Kaunt,KAUNT,"Anthropic Ireland, Limited",SaaS,"Vendor website, subprocessor list",Explicit,AI language model services,https://www.kaunt.com/company/trust-compliance,
+Kaunt,KAUNT,Google,Non specified,"Vendor website, trust and compliance",Ambiguous,Cloud computing,https://www.kaunt.com/company/trust-compliance,
+Kaunt,KAUNT,Microsoft,IaaS,"Vendor website, trust and compliance",Explicit,Cloud hosting and computing,https://www.kaunt.com/company/trust-compliance,
+Kiona,,ATEA (projekt specifikt),IaaS,"Vendor website, data agreement ",,Hosting services (Private cloud),https://iwmac.zendesk.com/hc/article_attachments/22555878987292,
+Kiona,,Google,SaaS,"Vendor website, data agreement ",,Gemini model ,https://iwmac.zendesk.com/hc/article_attachments/22555878987292,
+Kiona,,Google,PaaS,"Vendor website, data agreement ",,Approved subprocessors ,https://iwmac.zendesk.com/hc/article_attachments/22555878987292,
+Kiona,,ITSjefen AS,SaaS,"Vendor website, data agreement ",,Google Vertex AI ,https://iwmac.zendesk.com/hc/article_attachments/22555878987292,
+Kiona,,Microsoft,SaaS,"Vendor website, data agreement ",,Microsoft Power BI,https://iwmac.zendesk.com/hc/article_attachments/22555878987292,
+Knowit,,Amazon,Non specified,https://www.knowit.eu/about-knowit/our-partners/amazon-web-services,,"Thanks to our strategic partnership with AWS, we’re able to provide our clients with the latest technologies and support.",,
+Knowit,,Google,Non specified,https://www.knowit.eu/news-press/knowit-is-now-google-cloud-premier-partner/,,"At Knowit, we have demonstrated a high level of expertise and success in deploying Google products and solutions to our customers in the Nordics. ",,
+Knowit,,Microsoft,SaaS,https://www.knowit.eu/about-knowit/our-partners/microsoft/,,"Data & AI
+",,
+Knowit,,Microsoft,PaaS,https://www.knowit.eu/about-knowit/our-partners/microsoft/,,Power Platform,,
+Knowit,,Microsoft,IaaS,https://www.knowit.eu/about-knowit/our-partners/microsoft/,,"Azure Infrastructure
+",,
+Knowit,,OpenAI,SaaS,https://www.knowit.eu/news-press/knowit-is-now-google-cloud-premier-partner/,,"At Knowit, we have demonstrated a high level of expertise and success in deploying Google products and solutions to our customers in the Nordics. ",,
+Koncern IT,,,,,,,,"Jeg kan ikke finde et entydigt svar, nogle steder står der noget vedrørende Atea/microsoft andre steder stå der at det er lokalt."
+Konsido,Konsido,Microsoft,PaaS,Vendor contact,Explicit,Data is hosted on secure cloud servers in the EU. We use Azure or OVH depending on customer needs. ,https://www.konsido.dk/questions-and-answers,Kunden kan selv vælge cloud
+Konsido,Konsido,Microsoft,IaaS,"Vendor website, Q&A",Explicit,Data is hosted on secure cloud servers in the EU. We use Azure or OVH depending on customer needs. ,https://www.konsido.dk/questions-and-answers,Kunden kan selv vælge cloud
+Konsido,Konsido,OVHCloud,IaaS,"Vendor website, Q&A",Explicit,Data is hosted on secure cloud servers in the EU. We use Azure or OVH depending on customer needs. ,https://www.konsido.dk/questions-and-answers,Kunden kan selv vælge cloud
+Konsido,Konsido,OVHCloud,PaaS,Vendor contact,Explicit,Data is hosted on secure cloud servers in the EU. We use Azure or OVH depending on customer needs. ,https://www.konsido.dk/questions-and-answers,Kunden kan selv vælge cloud
+koordinat.ai,Overvågning og registrering af § 3-beskyttet natur,Amazon,IaaS,,,,,
+Marina Health,,,,,,,,Kan pt ikke finde noget
+Materialise NV,,,,,,,,Kan pt ikke finde noget
+MedCom,,,,,,,,"Kan ikke finde konkret dokumntation pt., men de bruger vidst TDC erhverv og Netic"
+Melatech,,,,,,,,Kan pt ikke finde noget
+Microsoft,COPILOT,Microsoft,IaaS,"Vendor website, product description",Explicit,Microsoft is itself a CSP.,https://azure.microsoft.com/da-dk/products/category,
+mploy,,,,,,,,Kan pt ikke finde noget
+Netcompany Group,,,,,,,,Sparket til side pga. scope og størrelse
+Neusoft,,,,,,,,"Jeg kan godt finde Neusofts CSP for deres hovedafdelinger i asien, men fandt frem til at det var Neusoft DE der var benyttet i der her projekt og deres csp kan jeg ikke finde. "
+NNIT,,Amazon,IaaS,,,,,
+NNIT,,Google,SaaS,Contact with public authority,,,,
+NNIT,,Microsoft,IaaS,,,,,
+NNIT,,Microsoft,PaaS,Contact with public authority,,,,
+NNIT,,Microsoft,SaaS,Contact with public authority,,,,
+Noteless,,Google,PaaS,"Vendor website, trust center",,"On-demand cloud computing for AI processing, and only processed in-memory, data is never retained.",https://trust.noteless.com/resources?s=bpzssupqar7ume4wx6435&name=2026-google-cloud-platform-hdsv-2-certificate-reissued-v-2-.pdf,
+Noteless,,Microsoft,IaaS,"Vendor website, trust center",,"We use Microsoft Azure to securely host our application infrastructure and core database services within the EU/EEA, ensuring compliance with regional data protection standards.","https://trust.noteless.com/resources?s=z4p12ijmrcgb7po6kvp1u&name=azure,-dynamics-365-and-online-services-hds-certificate-(october-2026-).pdf",
+Noteless,,Speechmatics,SaaS,"Vendor website, trust center",,Speech-to-text,https://trust.noteless.com/subprocessors,
+NTT Data Business Solutions,,Amazon,IaaS,"Vendor website, partnerships",Explicit,"With the rapid proliferation of cloud services and complex IT infrastructures, it is essential to have the right managed services partner by your side. That is why we have added Amazon (AWS) to our partner network.",https://nttdata-solutions.com/dk/om-os/vores-partnerskaber/,
+NTT Data Business Solutions,,IBM,SaaS,"Vendor website, product description",Inferred,IBM Watsonx.ai,https://parsonii.bynttdata.com/en/product/,
+NTT Data Business Solutions,,Microsoft,IaaS,"Vendor website, partnerships",Explicit,"Thanks to the global partnership between NTT DATA Business Solutions and Microsoft, our customers gain access to expertise in leading cloud technology and solutions.",https://nttdata-solutions.com/dk/om-os/vores-partnerskaber/,
+Orikio,,,,,,,,Kan pt ikke finde noget
+Palantir Technologies,,,,,,,,Sparket til side pga. scope og størrelse
+Personae,,,,,,,,Kan pt ikke finde noget
+Pondoo,Pondoo AI,UpCloud Ltd.,IaaS,Vendor contact,Explicit,Dedicated virtual servers,,
+PostNord Strålfors,eDistribution,Microsoft,IaaS,"Vendor website, news",Inferred,"""Today, PostNord Strålfors offers their customers a cloud-based Microsoft Azure solution to modernize the technology and provide greater flexibility and access to advanced features. 'It modernized our infrastructure...""",https://www.stralfors.dk/indsigter/artikler/2023/confidential-computing/,
+Praemostro,,Hetzner,IaaS,,,,,Kan pt ikke finde noget
+Prenaital,,,,,,,,
+Promte,Mødereferat bot,Microsoft,SaaS,"Vendor website, documentation",Inferred,Promte can be used with LLMs hosted by Azure (on servers in the EU) or hosted by OpenAI (on servers in the USA).,,
+Promte,,Microsoft,PaaS,Contact with public authority,Inferred,Promte can be used with LLMs hosted by Azure (on servers in the EU) or hosted by OpenAI (on servers in the USA).,,
+Promte,Promte Chat,Microsoft,IaaS,Contact with public authority,Inferred,Promte can be used with LLMs hosted by Azure (on servers in the EU) or hosted by OpenAI (on servers in the USA).,,
+Promte,Mødereferat bot,OpenAI,SaaS,"Vendor website, documentation",Inferred,Promte can be used with LLMs hosted by Azure (on servers in the EU) or hosted by OpenAI (on servers in the USA).,,
+Promte,Promte Chat,OpenAI,SaaS,"Vendor website, documentation",Inferred,Promte can be used with LLMs hosted by Azure (on servers in the EU) or hosted by OpenAI (on servers in the USA).,,
+Promte,Promte Chat,Scaleway,IaaS,Contact with public authority,Inferred,Promte can be used with LLMs hosted by Azure (on servers in the EU) or hosted by OpenAI (on servers in the USA).,,
+Proprty.AI,,Amazon,IaaS,Vendor contact,,We host with Azure and AWS.,,
+Proprty.AI,,Microsoft,IaaS,Vendor contact,,We host with Azure and AWS.,,
+Proprty.AI,,Microsoft,PaaS,Vendor contact,,OpenAI LLM hosted on Azure.,,
+Puzzel,SupWiz,Amazon,IaaS,"Vendor website, trust center
+",Explicit,Data processing and storage,https://www.puzzel.com/puzzel-services-infrastructure-overview,
+Puzzel,SupWiz,Microsoft,IaaS,"Vendor website, trust center
+",Explicit,Data processing and storage,https://www.puzzel.com/puzzel-services-infrastructure-overview,
+Radiobotics,,,,,,,,Kan pt ikke finde noget
+raffle.ai,RAFFLE.AI,Microsoft,IaaS,"Vendor website, terms and conditions",Explicit,For underlying cloud infrastructure,https://raffle.ai/legal/terms-and-conditions,
+RECOMIA,,SliceVault,SaaS,"Vendor website, data security, Contact with public authority",,"The cloud platform made available to RECOMIA and its research partners is delivered and maintained by SliceVault, a company dedicated to providing secure and compliant cloud-based solutions for managing medical images in clinical research.
+
+
+
+​",https://www.recomia.org/de-identification,
+ROPCA,,,,,,,,Kan pt ikke finde noget
+SAS Institute,,Amazon,SaaS,Vendor website,,"A ready-to-use SaaS experience managed by SAS, designed for rapid adoption and ongoing innovation",https://www.sas.com/da_dk/solutions/cloud.html#managed-by-sas,
+SAS Institute,,Microsoft,IaaS,Vendor website,,Deployed on cloud infrastructure that aligns with your business needs,https://www.sas.com/da_dk/solutions/cloud.html#managed-by-sas,
+Schultz,,Microsoft,Non specified,"Vendor website, meet our employees",,"""At tingene ligger i clouden og i Azure gør bare, at vi er enormt responsive.""",https://www.schultz.dk/karriere/moed-vores-medarbejdere/nichlas-bjoerndal/,"Udfyldelsen af denne kolonne er baseret på et citat en medarbjeder på deres hjemmeside: ""At tingene ligger i clouden og i Azure gør bare, at vi er enormt responsive."""
+Sensio Care,,Microsoft,Non specified,"Vendor website, trust center ",,"Data storage, processing, cloud services for Sensio 365.",https://trust.sensio.com/subprocessors,
+SERVICENOW DENMARK,AI Ticket Routing,Amazon,IaaS,"Vendor website, white paper",Explicit,"The colocation facility and the third-party (hyperscaler) cloud service provider (CSP) also have shared responsibilities with the data controller (customer) and data processor (ServiceNow). Customers deployed on local EU Hyperscaler environments like Amazon (AWS), Google Platform (GCP) or Microsoft Azure have the option to opt into SPP EU, gaining all the benefits of SPP EU while still leveraging cloud service provider (CSP) features such as Azure encrypted storage.",https://www.servicenow.com/standard/resource-center/white-paper/wp-spp_european_union.html,"Gælder for ServiceNow's ""Protected Platform (SPP) for the European Union"""
+SERVICENOW DENMARK,AI Ticket Routing,Google,IaaS,"Vendor website, white paper",Explicit,"Customers deployed on local EU Hyperscaler environments like Amazon (AWS), Google Platform (GCP) or Microsoft Azure have the option to opt into SPP EU, gaining all the benefits of SPP EU while still leveraging cloud service provider (CSP) features such as Azure encrypted storage.",https://www.servicenow.com/standard/resource-center/white-paper/wp-spp_european_union.html,"Gælder for ServiceNow's ""Protected Platform (SPP) for the European Union"""
+SERVICENOW DENMARK,AI Ticket Routing,Microsoft,IaaS,"Vendor website, white paper",Explicit,"Customers deployed on local EU Hyperscaler environments like Amazon (AWS), Google Platform (GCP) or Microsoft Azure have the option to opt into SPP EU, gaining all the benefits of SPP EU while still leveraging cloud service provider (CSP) features such as Azure encrypted storage.",https://www.servicenow.com/standard/resource-center/white-paper/wp-spp_european_union.html,"Gælder for ServiceNow's ""Protected Platform (SPP) for the European Union"""
+Siemens Healthineers,,,,,,,,Kan pt ikke finde noget
+Sofia AI,,,,,,,,
+Solita,,Amazon,Non specified,,,"Solita works with AWS, Microsoft, Google and UpCloud to deliver cloud solutions across different sovereignty levels, ensuring resilience, compliance and a strong European foundation for digital services.",https://www.solita.fi/services/cloud-services/,
+Solita,,Google,Non specified,,,"Solita works with AWS, Microsoft, Google and UpCloud to deliver cloud solutions across different sovereignty levels, ensuring resilience, compliance and a strong European foundation for digital services.",https://www.solita.fi/services/cloud-services/,
+Solita,,Microsoft,Non specified,,,"Solita works with AWS, Microsoft, Google and UpCloud to deliver cloud solutions across different sovereignty levels, ensuring resilience, compliance and a strong European foundation for digital services.",https://www.solita.fi/services/cloud-services/,
+Statumanu,,,,,,,,Kan pt ikke finde noget
+Stratos AI,,,,,,,,Kan pt ikke finde noget
+Swarm Analytics,Byens flow,,,,,,,Kan pt ikke finde noget
+Sweco,,Microsoft,PaaS,,,,https://www.microsoft.com/en/customers/story/1767395222127336377-swecogroup-azure-ai-services-professional-services-en-sweden,
+Sweco,,Rackhosting,IaaS,Contact with public authority,,,https://www.microsoft.com/en/customers/story/1767395222127336377-swecogroup-azure-ai-services-professional-services-en-sweden,
+Syncsense,,Amazon,Non specified,"Vendor website, privacy",,"When you use the SYNCSENSE product, the product records usage data. All data is hosted on an Amazon (AWS) back end hosted in Ireland.",https://syncsense.io/dk/privacy,
+Syncsense,,Google,Non specified,"Vendor website, privacy",,"When you contact SYNCSENSE ApS by email, SYNCSENSE ApS processes the personal data that you send to us. All data is hosted in Google within the European Union.",https://syncsense.io/dk/privacy,
+Systematic,,Microsoft,Non specified,"Vendor website, careers",,Cloud Solutions and Cloud Native Application Bundles,https://systematic.com/int/careers/landing/site-reliability-engineer-at-systematic-bucharest/,
+syv.ai,,syv.ai,IaaS,Vendor contact,,,,
+Teton.ai,Teton,Amazon,IaaS,"Vendor website, subprocessor list",Explicit,Infrastructure Hosting,https://trust.teton.ai/subprocessors,
+Teton.ai,Teton,Google,SaaS,"Vendor website, subprocessor list",Ambiguous,Cloud Infrastructure & Cloud Intelligence,https://trust.teton.ai/subprocessors,
+Teton.ai,Teton,OpenAI,SaaS,"Vendor website, subprocessor list",Ambiguous,Cloud Intelligence,https://trust.teton.ai/subprocessors,
+Thales,,,,,,,,Sparket til side pga. scope og størrelse
+TOPDESK DANMARK,TopDesk AI (vidensassistent),Microsoft,SaaS,"Vendor website, subprocessor list",Inferred,AI Features,https://page.topdesk.com/saas-information#subprocessorsandhostinglocations,
+TOPDESK DANMARK,TopDesk AI (vidensassistent),Microsoft,IaaS,"Vendor website, subprocessor list",Explicit,Microsoft Azure hosting,https://page.topdesk.com/saas-information#subprocessorsandhostinglocations,
+Treat System,,,,,,,,Kan pt ikke finde noget
+Trifork Digital Health,,Amazon,IaaS,"Vendor website, partners",,Amazon (AWS) is a global cloud computing platform offered by Amazon.com.,https://trifork.com/partners/?,
+Trifork Digital Health,,Google,IaaS,"Vendor website, partners",,"Trifork's partnership with Google is a strategic and reseller collaboration, elevating Trifork's offerings by leveraging Google's leading position in cloud and AI services.",https://trifork.com/partners/?,
+Trifork Digital Health,,Microsoft,IaaS,"Vendor website, partners",,Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge.,https://trifork.com/partners/?,
+UiPath Denmark,,,,,,,,Kan pt ikke finde noget
+Vaisala,,Hetzner,IaaS,Vendor contact,Explicit,Hetzner's cloud server,,
+VAR Healthcare DK,Chatbot i VAR,Microsoft,IaaS,Vendor contact,Explicit,The GPT model (hosted in Microsoft Azure in Sverige),,
+VAR Healthcare DK,Chatbot i VAR,raffle.ai ,SaaS,Vendor contact,Explicit,RAG‑platform,https://raffle.ai/legal/terms-and-conditions,
+Velatir,,Scaleway,IaaS,"Vendor website, trust center",Explicit,Cloud hosting provider incl. self-hosted Mistral agent.,https://trust.velatir.com/,
+Visiana,,,,,,,,Kan pt ikke finde noget
+Voicare,,Scaleway,IaaS,"Vendor website, news",Explicit,"we migrated our entire platform to Scaleway, a European-born cloud provider",https://voicare.ai/en/blog/why-we-moved-to-scaleway,
+Vyond,AI Genererede Videoer,Amazon,SaaS,"Vendor website, subprocessor list",Inferred,"Text to speech, GenAI",https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,Amazon,IaaS,"Vendor website, terms of service
+",Explicit,Company currently uses Amazon (“AWS”) as its cloud services provider. AWS infrastructure is housed in Amazon-controlled data centers. ,https://www.vyond.com/faqs/,
+Vyond,AI Genererede Videoer,ElevenLabs,SaaS,"Vendor website, subprocessor list",Inferred,"Text-to-Speech, Voice Cloning",https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,fal.ai,SaaS,"Vendor website, subprocessor list",Inferred,Generative AI,https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,Google,SaaS,"Vendor website, subprocessor list",Inferred,"Text-to-speech, text-to-video, GenAI",https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,HeyGen,SaaS,"Vendor website, subprocessor list",Inferred,AI Avatar,https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,Kuaishou Technology,SaaS,"Vendor website, subprocessor list",Inferred,"Text-to-Video, Text-to-Image",https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,Microsoft,SaaS,"Vendor website, subprocessor list",Inferred,"Text to speech, GenAI",https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,Tavus,SaaS,"Vendor website, subprocessor list",Inferred,AI Avatar,https://think.vyond.com/subprocessors,
+Vyond,AI Genererede Videoer,WellSaid Labs,SaaS,"Vendor website, subprocessor list",Inferred,Text to speech,https://think.vyond.com/subprocessors,
+Ward,,,,,,,,
+Worldish,,,,,,,,Kan pt ikke finde noget
+WriteReader,ATEL,Scaleway,IaaS,"Vendor website, privacy policy",,"Users outside North America: Data is hosted within the European Union. Current subprocessors are: Amazon (US) & Scaleway, (France)",https://www.writereader.com/privacy-policy-security/,

@@ -1,0 +1,142 @@
+Vendor,CSP,Layer
+2021.ai,Microsoft,IaaS
+2021.ai,Microsoft,PaaS
+2021.ai,Microsoft,SaaS
+Aktio,Hetzner,IaaS
+ATKI,GoodVision AI,SaaS
+Boost AI,Amazon,IaaS
+Boost AI,Cleura,IaaS
+Boost AI,Microsoft,SaaS
+Boost AI,OpenAI,SaaS
+Boost AI,Speechmatics,SaaS
+Boost AI,VIER,PaaS
+Candeno,Microsoft,SaaS
+Candeno,ScanNet,IaaS
+Cerebriu,Oracle,SaaS
+Cleardox,Hetzner,IaaS
+Cludo,Amazon,IaaS
+Cludo,OpenAI,SaaS
+Corti,Vendor-hosted (no external CSP),SaaS
+DigiRehab,itpilot,IaaS
+Digital Impact,Amazon,IaaS
+Droids Agency,Microsoft,PaaS
+Droids Agency,Microsoft,SaaS
+Droids Agency,Microsoft,IaaS
+Droids Agency,Servicepoint,IaaS
+Edora,Amazon,IaaS
+Edora,Edora Cloud,IaaS
+EdSpace,Microsoft,IaaS
+EdSpace,OpenAI,SaaS
+Ento Labs,Amazon,IaaS
+Ento Labs,Google,IaaS
+Ento Labs,Hetzner,IaaS
+Evido Health,Amazon,IaaS
+Fellowmind Denmark,Ankiro,SaaS
+Fellowmind Denmark,Microsoft,SaaS
+Fellowmind Denmark,Microsoft,PaaS
+Fellowmind Denmark,Microsoft,IaaS
+First Agenda,Amazon,IaaS
+First Agenda,Binero,IaaS
+First Agenda,Droids Agency,SaaS
+First Agenda,Ordbogen,SaaS
+GE HealthCare,Amazon,PaaS
+Genair8,ScanNet,IaaS
+Gillie.AI,Amazon,IaaS
+Gillie.AI,Google,SaaS
+Gismap,Amazon,IaaS
+Gismap,OpenAI,SaaS
+GPT-trainer,Amazon,IaaS
+GREEHILL,Microsoft,IaaS
+Heimdal Security,Amazon,IaaS
+Heimdal Security,Microsoft,IaaS
+Hello Ebbot,Google,IaaS
+Hello Ebbot,OVHCloud,IaaS
+IBEX Medical Analytics,Amazon,IaaS
+InDialog.ai,Microsoft,PaaS
+InDialog.ai,team.blue,IaaS
+Karnov Group Denmark,Google,PaaS
+Karnov Group Denmark,Google,IaaS
+Karnov Group Denmark,Microsoft,PaaS
+Karnov Group Denmark,Microsoft,IaaS
+Kaunt,Anthropic,SaaS
+Kaunt,Google,Not specified
+Kaunt,Microsoft,IaaS
+Kiona,ATEA,IaaS
+Kiona,Google,SaaS
+Kiona,Google,PaaS
+Kiona,ITSjefen AS,SaaS
+Kiona,Microsoft,SaaS
+Knowit,Amazon,Not specified
+Knowit,Google,Not specified
+Knowit,Microsoft,SaaS
+Knowit,Microsoft,PaaS
+Knowit,Microsoft,IaaS
+Knowit,OpenAI,SaaS
+Konsido,Microsoft,PaaS
+Konsido,Microsoft,IaaS
+Konsido,OVHCloud,IaaS
+Konsido,OVHCloud,PaaS
+Microsoft,Microsoft,IaaS
+NNIT,Amazon,IaaS
+NNIT,Google,SaaS
+NNIT,Microsoft,IaaS
+NNIT,Microsoft,PaaS
+NNIT,Microsoft,SaaS
+Noteless,Google,PaaS
+Noteless,Microsoft,IaaS
+Noteless,Speechmatics,SaaS
+NTT Data Business Solutions,Amazon,IaaS
+NTT Data Business Solutions,IBM,SaaS
+NTT Data Business Solutions,Microsoft,IaaS
+Pondoo,UpCloud,IaaS
+PostNord Strålfors,Microsoft,IaaS
+Praemostro,Hetzner,IaaS
+Promte,Microsoft,SaaS
+Promte,Microsoft,PaaS
+Promte,Microsoft,IaaS
+Promte,OpenAI,SaaS
+Promte,Scaleway,IaaS
+Proprty.AI,Amazon,IaaS
+Proprty.AI,Microsoft,IaaS
+Proprty.AI,Microsoft,PaaS
+Puzzel,Amazon,IaaS
+Puzzel,Microsoft,IaaS
+raffle.ai,Microsoft,IaaS
+RECOMIA,SliceVault,SaaS
+SAS Institute,Amazon,SaaS
+SAS Institute,Microsoft,IaaS
+Schultz,Microsoft,Not specified
+Sensio Care,Microsoft,Not specified
+SERVICENOW DENMARK,Amazon,IaaS
+SERVICENOW DENMARK,Google,IaaS
+SERVICENOW DENMARK,Microsoft,IaaS
+Solita,Amazon,Not specified
+Solita,Google,Not specified
+Solita,Microsoft,Not specified
+Sweco,Microsoft,PaaS
+Sweco,Rackhosting,IaaS
+Syncsense,Amazon,Not specified
+Syncsense,Google,Not specified
+Systematic,Microsoft,Not specified
+syv.ai,Vendor-hosted (no external CSP),IaaS
+Teton.ai,Amazon,IaaS
+Teton.ai,Google,SaaS
+Teton.ai,OpenAI,SaaS
+TOPDESK DANMARK,Microsoft,SaaS
+TOPDESK DANMARK,Microsoft,IaaS
+Vaisala,Hetzner,IaaS
+VAR Healthcare DK,Microsoft,IaaS
+VAR Healthcare DK,raffle.ai,SaaS
+Velatir,Scaleway,IaaS
+Voicare,Scaleway,IaaS
+Vyond,Amazon,SaaS
+Vyond,Amazon,IaaS
+Vyond,ElevenLabs,SaaS
+Vyond,fal.ai,SaaS
+Vyond,Google,SaaS
+Vyond,HeyGen,SaaS
+Vyond,Kuaishou Technology,SaaS
+Vyond,Microsoft,SaaS
+Vyond,Tavus,SaaS
+Vyond,WellSaid Labs,SaaS
+WriteReader,Scaleway,IaaS

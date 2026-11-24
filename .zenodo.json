@@ -1,0 +1,13 @@
+{
+  "title": "Infrastructural power: data and code on AI systems, developers and cloud dependencies in the Danish public sector",
+  "upload_type": "dataset",
+  "description": "Coded data, code and figures for an explorative analysis of the infrastructural dependencies that shape the implementation of AI systems across the Danish public sector: a register of AI systems (one row per system and public authority), the developers that supply them, and the cloud providers they build on. Data snapshot 23 November 2026. Free-text and personal data from the working file are not included. See README, CODEBOOK and LIMITATIONS.",
+  "creators": [
+    {"name": "[FAMILY NAME], [GIVEN NAME]", "affiliation": "[AFFILIATION]", "orcid": "[ORCID]"}
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": ["artificial intelligence", "public sector", "cloud computing", "digital sovereignty", "infrastructure", "Denmark"],
+  "related_identifiers": [
+    {"identifier": "[DOI OF ARTICLE]", "relation": "isSupplementTo", "scheme": "doi"}
+  ]
+}

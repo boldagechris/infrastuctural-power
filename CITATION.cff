@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Infrastructural power: data and code on AI systems, developers and cloud dependencies in the Danish public sector"
+type: dataset
+version: 1.0.0
+date-released: 2026-11-24
+license: CC-BY-4.0
+repository-code: "https://github.com/boldagechris/infrastuctural-power"
+authors:
+  - family-names: "[FAMILY NAME]"
+    given-names: "[GIVEN NAME]"
+    affiliation: "[AFFILIATION]"
+    orcid: "https://orcid.org/[ORCID]"
+keywords:
+  - artificial intelligence
+  - public sector
+  - cloud computing
+  - digital sovereignty
+  - infrastructure
+  - Denmark
+preferred-citation:
+  type: article
+  title: "[TITLE OF ARTICLE]"
+  authors:
+    - family-names: "[FAMILY NAME]"
+      given-names: "[GIVEN NAME]"
+  journal: "[JOURNAL]"
+  year: 2026
