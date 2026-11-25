@@ -263,7 +263,7 @@ L_ = lambda col: get_column_letter(list(SYS.columns).index(col) + 1)
 r = wb['README']
 lines = [
     ('Datasets built from the AI project sheet', None),
-    (f'Source: {SRC.split("/")[-1]}, sheet "AI project". Built 24 Nov 2026. ' + (f'Filter: all {closed_rows} rows with Status = Lukket removed ({len(gone)} systems closed at every authority drop out; systems still in use elsewhere keep their other rows).' if EXCLUDE_CLOSED else 'All rows, no filters.'), None),
+    (f'Source: {SRC.split("/")[-1]}, sheet "AI project". Built {__import__("datetime").date.today():%d %b %Y} from the working file of 23 Nov 2026. ' + (f'Filter: all {closed_rows} rows with Status = Lukket removed ({len(gone)} systems closed at every authority drop out; systems still in use elsewhere keep their other rows).' if EXCLUDE_CLOSED else 'All rows, no filters.'), None),
     ('', None),
     ('Count', 'Value'),
     ('Rows in AI project (source)', N_SOURCE),
